@@ -1,0 +1,52 @@
+version: "3.5"
+services:
+    project_webserver:
+        image: nginx
+        container_name: project_webserver
+        restart: always
+        volumes:
+         - ./laravel-app:/var/www
+         - ./configuration/nginx/conf.d/:/etc/nginx/conf.d/
+        ports:
+         - 80:80
+         - 443:443
+        networks:
+         - project-network
+        links:
+         - project_laravel
+    project_laravel:
+#        build:
+#         context: ./laravel-app
+#         dockerfile: Dockerfile
+        image: laravel
+        container_name: project_laravel
+        volumes:
+         - ./laravel-app:/var/www
+         - ./configuration/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+        links:
+         - project_postgres
+        networks:
+         - project-network
+    project_postgres:
+        image: postgres
+        container_name: project_postgres  
+        restart: always
+        environment:
+         - POSTGRES_DB=project
+         - POSTGRES_USER=root
+         - POSTGRES_PASSWORD=root
+        volumes:
+         - ./dbdata/postgres:/var/lib/postgresql/data
+        networks:
+         - project-network
+    project_adminer:
+        image: adminer
+        container_name: project_adminer
+        restart: always
+        ports: 
+         - 8080:8080
+        networks: 
+         - project-network
+networks:
+    project-network:
+        driver: bridge
