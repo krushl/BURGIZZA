@@ -1,47 +1,17 @@
-version: "3.5"
+version: "3"
 services:
-    project_webserver:
-        image: nginx
+    adminer:
+        image: adminer
+        restart: always
         ports:
-         - 8089:80
-         #- 443:443
-        #networks:
-         #- project-network
-        #links:
-         #- project_laravel
-    #project_laravel:
-       #build:
-        #context: ./laravel-app
-        #dockerfile: Dockerfile
-        #image: laravel
-        #container_name: project_laravel
-        #volumes:
-         #- ./laravel-app:/var/www
-         #- ./configuration/php/local.ini:/usr/local/etc/php/conf.d/local.ini
-        #links:
-         #- project_postgres
-        #networks:
-         #- project-network
-    #project_postgres:
-        #image: postgres
-        #container_name: project_postgres  
-        #restart: always
-        #environment:
-         #- POSTGRES_DB=project
-         #- POSTGRES_USER=root
-         #- POSTGRES_PASSWORD=root
-        #volumes:
-         #- ./dbdata/postgres:/var/lib/postgresql/data
-        #networks:
-         #- project-network
-    #project_adminer:
-        #image: adminer
-        #container_name: project_adminer
-        #restart: always
-        #ports: 
-         #- 8080:8080
-        #networks: 
-         #- project-network
-#networks:
-    #project-network:
-        #driver: bridge
+            - 8080:8080
+    postgresql:
+        image: postgres
+        restart: always
+        volumes:
+            - ./postgress-data:/var/lib/postresql/data
+        environment:
+            - POSTGRES_DB=burgizza
+            - POSTGRES_USER=root
+            - POSTGRES_PASSWORD=root
+
