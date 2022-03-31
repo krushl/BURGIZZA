@@ -1,0 +1,2 @@
+2022/03/30 22:07:23 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.144.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.144.2:9000", host: "localhost"
+2022/03/30 22:07:30 [error] 24#24: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.144.1, server: , request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.144.2:9000", host: "localhost"

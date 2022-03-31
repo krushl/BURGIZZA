@@ -1,0 +1,89 @@
+:root
+{
+    --bg-image: '/public/asset/img/backgrounds/bg-burger';
+    --button-bg-color: #d4af37;
+    --button-font-color:#111;
+}
+
+h2.home-title {
+    font-size: 6.5em;
+    color:var(--font-color);
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+div.home-container {
+    height: 100%;
+    width: 100%;
+    /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url('../img/backgrounds/bg-burger.jpg');*/
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('../img/backgrounds/bg-burger.jpg');
+    background-size: cover;
+}
+a.home-button {
+    pointer-events: auto;
+    cursor: pointer;
+    background: var(--button-bg-color);
+    color: var(--button-font-color);
+    border: none;
+    padding: 1.5rem 3rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+a.home-button:hover{
+    color: var(--button-font-color);
+}
+a.home-button > span {
+    display: inline-block;
+}
+
+a.home-button:hover > span {
+    opacity: 0;
+}
+
+
+div.home-button-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+div.home-button-item_inner {
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative;
+    --offset: 1rem;
+    --move-initial: calc(-25% + var(--offset));
+    --move-final: calc(-50% + var(--offset));
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee 1s linear infinite;
+    animation-play-state: paused;
+    opacity: 0;
+}
+a.home-button:hover div.home-button-item_inner {
+    animation-play-state: running;
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+div.home-button-item span{
+    text-align: center;
+    white-space: nowrap;
+    padding:1.5rem 0.5rem;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(var(--move-initial), 0, 0);
+    }
+
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
+    }
+}

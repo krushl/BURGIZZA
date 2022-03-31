@@ -1,17 +1,60 @@
-version: "3"
+version: "3.3"
 services:
+    db:
+        image: postgres
+        restart: unless-stopped
+        tty: true
+        container_name: burgizza-db
+        ports:
+            - "5432:5432"
+        environment:
+            POSTGRES_DB: ${DB_DATABASE}
+            POSTGRES_USER: ${DB_USERNAME}
+            POSTGRES_PASSWORD: ${DB_PASSWORD}
+        volumes:
+            - ./storage/docker/_db:/var/lib/postgresql/data
+        networks:
+            - burgizza-db-network
+    app:
+        build:
+            context: .
+            dockerfile: ./docker/php/Dockerfile
+        container_name: burgizza-app
+        restart: unless-stopped
+        tty: true
+        working_dir: /var/www
+        volumes:
+            - ./:/var/www
+            - ./docker/php/extend-php.ini:/usr/local/etc/php/conf.d/extend-php.ini
+        depends_on:
+            - db
+        networks:
+            - burgizza-db-network
+            - burgizza-webserver-network
+    webserver:
+        image: nginx:1.21.4-alpine
+        container_name: burgizza_webserver
+        restart: unless-stopped
+        tty: true
+        volumes:
+            - ./:/var/www
+            - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+            - ./storage/docker/logs/nginx/:/var/log/nginx/
+        ports:
+             - "80:80"
+        depends_on:
+            -   app
+        networks:
+            - burgizza-webserver-network
     adminer:
         image: adminer
-        restart: always
+        container_name: burgizza-adminer
+        restart: unless-stopped
         ports:
-            - 8080:8080
-    postgresql:
-        image: postgres
-        restart: always
-        volumes:
-            - ./postgress-data:/var/lib/postresql/data
-        environment:
-            - POSTGRES_DB=burgizza
-            - POSTGRES_USER=root
-            - POSTGRES_PASSWORD=root
+            - "8081:8080"
+        networks:
+            - burgizza-db-network
 
+networks:
+    burgizza-db-network:
+    burgizza-webserver-network:

@@ -1,0 +1,21 @@
+.delivery-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),url("../img/backgrounds/delivery-bg.jpg");
+    background-position: 50% 35%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.delivery-title-item {
+    font-size: 4.5em;
+    color: #fff;
+}
+.delivery-content {
+    padding: 1em;
+
+}
