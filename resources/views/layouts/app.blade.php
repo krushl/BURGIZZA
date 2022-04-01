@@ -11,24 +11,28 @@
     <!--Styles -->
     @stack('css')
     <link rel="stylesheet" href="{{ asset('asset/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('asset/css/style.css') }}">
 </head>
 <body class="font-sans antialiased">
 <header>
-    <a href="#" class="logo">BURGIZZA</a>
+    <a href="{{route('home')}}" class="logo">BURGIZZA</a>
     <ul>
-        <li><a href="#">Меню</a></li>
-        <li><a href="#">Новости</a></li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Корзина</a></li>
-        <li><a href="#">Войти/Зарегистриоваться</a></li>
+        <li><a href="{{route('menu')}}">Меню</a></li>
+        <li><a href="{{route('article')}}">Новости</a></li>
+        <li><a href="{{route('delivery')}}">Доставка</a></li>
+        @auth
+            <li><a href="{{route('basket')}}">Корзина</a></li>
+            <li><a href="{{route('profile')}}">
+                    {{Auth::user()->login}}
+                </a></li>
+            <li> <a href="{{route('logout')}}">Выйти</a></li>
+        @endauth
+        @guest
+            <li><a href="{{route('showLoginForm')}}">Войти</a>/<a href="{{route('showRegisterForm')}}">Зарегистриоваться</a></li>
+        @endguest
     </ul>
 </header>
 
-    <div class="container-fluid h-100vh w-100 ">
     @yield('content')
-    </div>
-
 
 <script src="{{ asset('asset/js/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset('asset/js/bootstrap.min.js') }}"></script>
@@ -38,5 +42,6 @@
         header.classList.toggle('sticky', window.scrollY > 0);
     })
 </script>
+@stack('script')
 </body>
 </html>

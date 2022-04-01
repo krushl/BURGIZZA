@@ -31,3 +31,17 @@
         DB_USERNAME=root     //Login
         DB_PASSWORD=root     //Password
      ```
+  
+## Errors
+
+Если вылазит ошибка по порту, чтото типо такого:
+>Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use
+
+То сначало нужно проверить, что за гадость заняла 80 порт  
+>   $ sudo lsof -i -P -n 
+
+Потом когда нашли виновника, надо его оставить
+
+> $ sudo service name_service stop
+
+`name_service` - имя сервиса который занял 80 порт, к примеру `apache2`

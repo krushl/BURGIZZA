@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('content');
-            $table->foreignId('img_id')->constrained('images')->cascadeOnUpdate()->cascadeOnDelete();
+            $table->foreignId('image_id')->constrained('images')->cascadeOnUpdate()->cascadeOnDelete();
             $table->date('date');
         });
     }
