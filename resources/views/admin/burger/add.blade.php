@@ -73,6 +73,7 @@
                     </form>
                 </div>
                 <div class="col-md-7">
+                    @include('admin.burger.edit',compact('burgers'))
                 </div>
             </div>
         </div>
@@ -107,9 +108,7 @@
                 }
         });
         minus.addEventListener('click',function(){
-            if (addCompot.value) {
-                createInput(addCompot.value);
-            }
+            console.log(container.lastChild.remove());
         });
     </script>
 @endpush

@@ -1,10 +1,4 @@
-@extends('layouts.app')
 
-@section('title','edit borgir')
-@push('css')
-    <link rel="stylesheet" href="{{ asset('asset/css/profile.css') }}">
-@endpush
-@section('content')
     <table class="table">
         <thead>
         <tr>
@@ -18,11 +12,12 @@
         </tr>
         </thead>
         <tbody>
-        @foreach($burgers as $burger)
+        @forelse($burgers as $burger)
         <tr>
-            <th scope="row">1</th>
+            <th scope="row">{{ $burger->id }}</th>
             <td>{{$burger->name}}</td>
-            <td>  <img src="{{asset('/img/burgers/'.$burger->image->picture)}}" class="img-fluid img-thumbnail" alt="{{$burger->name}}"></td>
+{{--            <td>  <img src="{{HTML::image('/storage/app/public/img/burgers/'.$burger->image->picture)}}" class="img-fluid img-thumbnail" alt="{{$burger->name}}"></td>--}}
+            <td>  <img src="{{asset('/asset/img/burgers/'.trim($burger->image->picture))}}" class="img-fluid img-thumbnail" alt="{{$burger->name}}"></td>
             <td>{{$burger->category->category}}</td>
             <td>{{ \App\Helper\MenuHelper::beatifulyComposition(json_decode($burger->composition,JSON_UNESCAPED_UNICODE))  }}</td>
             <td>{{$burger->price}} ₽</td>
@@ -33,11 +28,13 @@
                 </form>
             </td>
         </tr>
-        @endforeach
+        @empty
+        <tr>
+           <td  class="text-center" colspan="7">Нет данных </td>
+        </tr>
+        @endforelse
         </tbody>
     </table>
-
-@endsection
 
 @push('script')
     <script>

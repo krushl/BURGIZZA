@@ -11,7 +11,6 @@ use Illuminate\Support\Facades\Storage;
 
 class AdminController extends Controller
 {
-
     protected const UPLOAD_PATH = 'public/img/burgers';
 
     public function adminIndex()
@@ -30,8 +29,9 @@ class AdminController extends Controller
         {
             return abort(403, 'Администратор only');
         }
+        $burgers = Burger::all();
 
-        return view('admin.burger.add');
+        return view('admin.burger.add',compact('burgers'));
     }
 
     public function burgerAdd(Request $request)
@@ -67,7 +67,7 @@ class AdminController extends Controller
             return abort(400,$burger->error());
         }
 
-        return redirect()->route('admin.burger.edit');
+        return $this->burgerAddForm();
     }
 
     public function burgerEditForm()
