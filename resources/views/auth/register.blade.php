@@ -22,7 +22,7 @@
                                     </div>
 
                                     <div class="form-outline mb-4">
-                                        <input type="text" name="password"  id="form3Example4cg" class="form-control form-control-lg" />
+                                        <input type="password" name="password"  id="form3Example4cg" class="form-control form-control-lg" />
                                         <label class="form-label" for="form3Example4cg">Пароль</label>
                                     </div>
 

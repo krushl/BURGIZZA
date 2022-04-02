@@ -30,34 +30,32 @@ Route::get('/delivery', function () {
 })->name('delivery');
 
 
+Route::post('/login', [LoginController::class, 'login'])->name('login');
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('showLoginForm');
 
 
+Route::post('/register', [RegisterController::class, 'register'])->name('register');
+Route::get('/register', [RegisterController::class, 'showRegisterForm'])->name('showRegisterForm');
 
-Route::post('/login',[LoginController::class,'login'])->name('login');
-Route::get('/login',[LoginController::class,'showLoginForm'])->name('showLoginForm');
-
-
-Route::post('/register',[RegisterController::class,'register'])->name('register');
-Route::get('/register',[RegisterController::class,'showRegisterForm'])->name('showRegisterForm');
-
-Route::middleware('auth')->group(function(){
-    Route::get('/logout',[LoginController::class,'logout'])->name('logout');
-    Route::get('/profile',[ProfileController::class, 'profile'])->name('profile');
-    Route::post('/profile/change',[ProfileController::class, 'changeOptional'])->name('changeOptional');
+Route::middleware('auth')->group(function () {
+    Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+    Route::get('/profile', [ProfileController::class, 'profile'])->name('profile');
+    Route::post('/profile/change', [ProfileController::class, 'changeOptional'])->name('changeOptional');
     Route::get('/basket')->name('basket');
 });
 
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::middleware('can:admin')->group(function () {
-        Route::get('/admin/index',[AdminController::class,'adminIndex'])->name('index');
+        Route::get('/index', [AdminController::class, 'adminIndex'])->name('index');
 
-        Route::get('/admin/burger/add',[AdminController::class,'burgerAddForm'])->name('burger-addForm');
-        Route::post('/admin/burger/add',[AdminController::class,'burgerAdd'])->name('burger-add');
+        Route::prefix('burger')->name('burger.')->group(function () {
+            Route::get('/add', [AdminController::class, 'burgerAddForm'])->name('burger-addForm');
+            Route::post('/add', [AdminController::class, 'burgerAdd'])->name('burger-add');
 
-        Route::get('/admin/burger/edit/{id}',[AdminController::class,'burgerEditForm'])->name('burger-editForm');
-        Route::post('/admin/burger/edit',[AdminController::class,'burgerEdit'])->name('burger-edit');
+            Route::get('/edit/', [AdminController::class, 'burgerEditForm'])->name('burger-editForm');
+            Route::post('/edit', [AdminController::class, 'burgerEdit'])->name('burger-edit');
 
-        Route::post('/admin/burger/destroy',[AdminController::class,'burgerDestroy'])->name('burger-destroy');
+            Route::post('/destroy', [AdminController::class, 'burgerDestroy'])->name('burger-destroy');
+        });
     });
-
 });
