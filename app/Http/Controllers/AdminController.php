@@ -15,8 +15,7 @@ class AdminController extends Controller
 
     public function adminIndex()
     {
-        if(!Gate::allows('admin'))
-        {
+        if (!Gate::allows('admin')) {
             return abort(403, 'Администратор only');
         }
 
@@ -25,22 +24,13 @@ class AdminController extends Controller
 
     public function burgerAddForm()
     {
-        if(!Gate::allows('admin'))
-        {
-            return abort(403, 'Администратор only');
-        }
         $burgers = Burger::all();
 
-        return view('admin.burger.add',compact('burgers'));
+        return view('admin.burger.add', compact('burgers'));
     }
 
     public function burgerAdd(Request $request)
     {
-        if(!Gate::allows('admin'))
-        {
-            return abort(403, 'Администратор only');
-        }
-
         $img = new Image;
         if ($request->file('burgerPic')) {
             $file = $request->file('burgerPic');
@@ -49,7 +39,7 @@ class AdminController extends Controller
             Storage::putFileAs(self::UPLOAD_PATH, $file, $filename);
             $img->picture = $filename;
 
-            if(!$img->save()){
+            if (!$img->save()) {
                 return abort(400, 'Что-то пошло не так');
             }
         }
@@ -63,26 +53,21 @@ class AdminController extends Controller
             'category_id' => $request->category,
         ]);
 
-        if(!$burger->save()) {
-            return abort(400,$burger->error());
+        if (!$burger->save()) {
+            return abort(400, $burger->error());
         }
 
-        return $this->burgerAddForm();
+        return redirect()->route('admin.burger.burger-addForm');
     }
 
     public function burgerEditForm()
     {
         $burgers = Burger::all();
-        return view('admin.burger.edit',compact('burgers'));
+        return view('admin.burger.edit', compact('burgers'));
     }
 
     public function burgerEdit(Request $request)
     {
-        if(!Gate::allows('admin'))
-        {
-            return abort(403, 'Администратор only');
-        }
-
         $burger = Burger::find($request->id);
         $img = Image::find($burger->image_id);
 
@@ -91,21 +76,25 @@ class AdminController extends Controller
                 $file = $request->file('burgerPic');
                 $filename = time() . $file->getClientOriginalName();
 
+                $path = self::UPLOAD_PATH . $img->picture;
+                Storage::delete($path);
+
                 Storage::putFileAs(self::UPLOAD_PATH, $file, $filename);
                 $img->picture = $filename;
-                if(!$img->save()){
+
+                if (!$img->save()) {
                     return abort(400, 'beda');
                 }
             }
         } else {
-            return abort (404,'Не найдено');
+            return abort(404, 'Не найдено');
         }
 
         if ($burger) {
             $composition = json_encode($request->composition);
             $burger->name = $request->burgerName;
             $burger->price = $request->price;
-            $burger->composition = $composition ;
+            $burger->composition = $composition;
             $burger->category = $request->category;
 
             if (!$burger->save()) {
@@ -117,6 +106,20 @@ class AdminController extends Controller
         }
 
 
-        return $this->burgerEditForm();
+        return redirect()->route('admin.burger.burger-editForm');
+    }
+
+    public function burgerDestroy(Request $request)
+    {
+        $burger = Burger::find($request->burgerId);
+        $path = self::UPLOAD_PATH . '/' . $burger->image->picture;
+
+        if (!Storage::delete($path)) {
+            if (!$burger->delete()) {
+                return ['result' => false, 'message' => 'Произошла ошибка при удаление'];
+            }
+        }
+
+        return ['result' => true, 'message' => 'Успешно удалено'];
     }
 }

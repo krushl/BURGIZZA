@@ -1,10 +1,10 @@
 :root{
-    --main-color: #111;
-    --font-color: #fff;
-    --hover-color: #d4af37;
-/*    #8b8b8b
-      #cbd2d9
-      */
+    --font-color: #111;
+    --main-color: #fff;
+    --colrr: #d4af37;
+    /*    #8b8b8b
+          #cbd2d9
+          */
 }
 
 *
@@ -13,29 +13,16 @@
     padding:0;
     box-sizing: border-box;
 }
-div.container-fluid {
-    height:100vh;
-    padding-right: 0;
-    padding-left: 0;
-}
-body
-{
-
-
-}
 
 header
 {
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
     display:flex;
+    position:sticky;
+    top:0;
     justify-content: space-between;
     align-content: center;
     transition: 0.6s;
     padding: 2rem;
-    z-index:10000;
 }
 header .logo
 {
@@ -47,10 +34,6 @@ header .logo
     text-transform: uppercase;
     letter-spacing: 2px;
     transform-style: 0.6s;
-}
-header .logo:hover
-{
-    color:var(--font-color);
 }
 header ul
 {
@@ -80,6 +63,7 @@ header ul li a
 
 header.sticky
 {
+    position:sticky;
     padding:1rem;
     background: var(--font-color);
 }
@@ -89,8 +73,34 @@ header.sticky ul li a
 {
     color: var(--main-color);
 }
-
-header ul li a:hover
+.admin-title a
 {
-    color:var(--hover-color);
+    text-decoration: none;
+    color:#111;
+
+    text-transform: uppercase;
+}
+.admin-button {
+    display: block;
+    border-radius: 10%/10%;
+    font-size: 25px;
+    padding:6rem;
+    transition:0.5s;
+    background: #66686a;
+}
+
+.burger-button:hover {
+    background: rgba(215, 148, 68, 0.99);
+}
+
+.category-button:hover {
+    background: #3c623f;
+}
+
+.status-button:hover {
+    background: #4bb0bc;
+}
+
+.articles-button:hover {
+    background: #76738d;
 }

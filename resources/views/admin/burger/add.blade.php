@@ -3,6 +3,7 @@
 @push('css')
     <link rel="stylesheet" href="{{ asset('asset/css/profile.css') }}">
 @endpush
+
 @section('content')
 <div class="container-fluid bg-light">
     <div class="row p-3">
@@ -12,7 +13,6 @@
                     <form role="form" action="{{ route('admin.burger.burger-add') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-
                             <label for="burgerName">
                                  Название бургера
                             </label>

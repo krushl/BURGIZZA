@@ -1,6 +1,6 @@
 <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
-        <img data-src="{{$burger->image->picture}}" alt="{{$burger->image->picture}}">
+        <img src="{{asset('/storage/img/burgers/'.trim($burger->image->picture))}}" alt="{{$burger->name}}">
         <div class="caption">
             <h3>{{$burger->name}}</h3>
             <p>{{$burger->price}}</p>

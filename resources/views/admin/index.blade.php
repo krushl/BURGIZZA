@@ -2,7 +2,7 @@
 
 @section('title','adminka')
 @push('css')
-    <link rel="stylesheet" href="{{ asset('asset/css/profile.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/css/admin.css') }}">
 @endpush
 @section('content')
 
@@ -10,24 +10,17 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-md-3 d-flex flex-column justify-content-center align-items-center">
-                        <h2>Бургеры</h2>
-                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"> Добавить бургеры</a><br>
-                        <a style="color:#111;" href="{{ route('admin.burger.burger-editForm') }}"> Редактировать бургеры</a><br>
+                    <div class="admin-title col-md-3 d-flex flex-column justify-content-center align-items-center">
+                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"><div class="admin-button burger-button">Бургеры</div> </a><br>
                     </div>
-                    <div class="col-md-3 d-flex  flex-column justify-content-center align-items-center">
-                        <h2>Категории</h2>
-                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"> Добавить категорию</a><br>
-                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"> Редактировать категории</a><br>
+                    <div class="admin-title col-md-3 d-flex  flex-column justify-content-center align-items-center">
+                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"><div class="admin-button category-button">Категории</div> </a><br>
                     </div>
-                    <div class="col-md-3 d-flex flex-column  justify-content-center align-items-center">
-                        <h2>Статус</h2>
-                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"> Просмотреть статусы</a><br>
+                    <div class="admin-title col-md-3 d-flex flex-column  justify-content-center align-items-center">
+                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"><div class="admin-button status-button">Статус</div> </a><br>
                     </div>
-                    <div class="col-md-3 d-flex flex-column  justify-content-center align-items-center">
-                        <h2>Новости</h2>
-                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"> Добавить новости</a><br>
-                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"> Редактировать новости</a><br>
+                    <div class="admin-title col-md-3 d-flex flex-column  justify-content-center align-items-center">
+                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"><div class="admin-button articles-button">Новости</div> </a><br>
                     </div>
                 </div>
             </div>

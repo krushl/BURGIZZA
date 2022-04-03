@@ -33,4 +33,19 @@ class Burger extends Model
         return $this->hasMany(OrderBurger::class,'burger_id','id');
     }
 
+    public function beatifulyComposition(?array $composition) : ?string
+    {
+        if($composition === null) {
+            return null;
+        }
+
+        $compos = '';
+        foreach ($composition as $key=>$value)
+        {
+            $compos .= $value;
+            $compos .= ' ';
+        }
+
+        return $compos ;
+    }
 }

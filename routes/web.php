@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Auth;
@@ -22,7 +23,7 @@ Route::get('/', function () {
     return view('home.index');
 })->name('home');
 
-Route::get('/menu')->name('menu');
+Route::get('/menu',[MainController::class,'menu'])->name('menu');
 Route::get('/article')->name('article');
 
 Route::get('/delivery', function () {
@@ -57,5 +58,26 @@ Route::prefix('admin')->name('admin.')->group(function () {
 
             Route::post('/destroy', [AdminController::class, 'burgerDestroy'])->name('burger-destroy');
         });
+
+        Route::prefix('category')->name('category.')->group(function () {
+            Route::post('/add', [AdminController::class, 'categoryAdd'])->name('add');
+            Route::post('/edit', [AdminController::class, 'categoryEdit'])->name('edit');
+            Route::post('/destroy', [AdminController::class, 'categoryDestroy'])->name('destroy');
+        });
+
+        Route::prefix('status')->name('status.')->group(function () {
+            Route::post('/add', [AdminController::class, 'statusAdd'])->name('add');
+            Route::post('/edit', [AdminController::class, 'statusEdit'])->name('edit');
+            Route::post('/destroy', [AdminController::class, 'statusDestroy'])->name('destroy');
+            Route::post('/index', [AdminController::class, 'statusIndex'])->name('index');
+        });
+
+        Route::prefix('articles')->name('articles.')->group(function () {
+            Route::post('/add', [AdminController::class, 'articlesAdd'])->name('add');
+            Route::post('/edit', [AdminController::class, 'articlesEdit'])->name('edit');
+            Route::post('/destroy', [AdminController::class, 'articlesDestroy'])->name('destroy');
+            Route::post('/index', [AdminController::class, 'articlesIndex'])->name('index');
+        });
+
     });
 });

@@ -634,3 +634,74 @@
 2022/04/02 11:38:28 [notice] 1#1: signal 17 (SIGCHLD) received from 22
 2022/04/02 11:38:28 [notice] 1#1: worker process 22 exited with code 0
 2022/04/02 11:38:28 [notice] 1#1: exit
+2022/04/02 14:53:37 [notice] 1#1: using the "epoll" event method
+2022/04/02 14:53:37 [notice] 1#1: nginx/1.21.4
+2022/04/02 14:53:37 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/02 14:53:37 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/02 14:53:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/02 14:53:37 [notice] 1#1: start worker processes
+2022/04/02 14:53:37 [notice] 1#1: start worker process 22
+2022/04/02 14:53:37 [notice] 1#1: start worker process 23
+2022/04/02 14:53:37 [notice] 1#1: start worker process 24
+2022/04/02 14:53:37 [notice] 1#1: start worker process 25
+2022/04/02 14:53:37 [notice] 1#1: start worker process 26
+2022/04/02 14:53:37 [notice] 1#1: start worker process 27
+2022/04/02 14:53:37 [notice] 1#1: start worker process 28
+2022/04/02 14:53:37 [notice] 1#1: start worker process 29
+2022/04/02 20:50:38 [crit] 24#24: *317 stat() "/var/www/public/asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:50:38 [crit] 24#24: *317 stat() "/var/www/public/asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:50:38 [crit] 24#24: *318 stat() "/var/www/public/asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:50:38 [crit] 24#24: *318 stat() "/var/www/public/asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:51:05 [crit] 23#23: *307 stat() "/var/www/public/asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:51:05 [crit] 23#23: *307 stat() "/var/www/public/asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:51:05 [crit] 22#22: *325 stat() "/var/www/public/asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:51:05 [crit] 22#22: *325 stat() "/var/www/public/asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 21:24:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/02 21:24:43 [notice] 24#24: gracefully shutting down
+2022/04/02 21:24:43 [notice] 22#22: gracefully shutting down
+2022/04/02 21:24:43 [notice] 23#23: gracefully shutting down
+2022/04/02 21:24:43 [notice] 26#26: gracefully shutting down
+2022/04/02 21:24:43 [notice] 25#25: gracefully shutting down
+2022/04/02 21:24:43 [notice] 28#28: gracefully shutting down
+2022/04/02 21:24:43 [notice] 27#27: gracefully shutting down
+2022/04/02 21:24:43 [notice] 29#29: gracefully shutting down
+2022/04/02 21:24:43 [notice] 24#24: exiting
+2022/04/02 21:24:43 [notice] 23#23: exiting
+2022/04/02 21:24:43 [notice] 25#25: exiting
+2022/04/02 21:24:43 [notice] 22#22: exiting
+2022/04/02 21:24:43 [notice] 26#26: exiting
+2022/04/02 21:24:43 [notice] 29#29: exiting
+2022/04/02 21:24:43 [notice] 27#27: exiting
+2022/04/02 21:24:43 [notice] 28#28: exiting
+2022/04/02 21:24:43 [notice] 24#24: exit
+2022/04/02 21:24:43 [notice] 23#23: exit
+2022/04/02 21:24:43 [notice] 22#22: exit
+2022/04/02 21:24:43 [notice] 25#25: exit
+2022/04/02 21:24:43 [notice] 26#26: exit
+2022/04/02 21:24:43 [notice] 29#29: exit
+2022/04/02 21:24:43 [notice] 27#27: exit
+2022/04/02 21:24:43 [notice] 28#28: exit
+2022/04/02 21:24:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/04/02 21:24:44 [notice] 1#1: worker process 22 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 23 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 24 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 25 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 26 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 27 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 28 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 29 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: exit
+2022/04/03 19:05:13 [notice] 1#1: using the "epoll" event method
+2022/04/03 19:05:13 [notice] 1#1: nginx/1.21.4
+2022/04/03 19:05:13 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/03 19:05:13 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/03 19:05:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/03 19:05:13 [notice] 1#1: start worker processes
+2022/04/03 19:05:13 [notice] 1#1: start worker process 22
+2022/04/03 19:05:13 [notice] 1#1: start worker process 23
+2022/04/03 19:05:13 [notice] 1#1: start worker process 24
+2022/04/03 19:05:13 [notice] 1#1: start worker process 25
+2022/04/03 19:05:13 [notice] 1#1: start worker process 26
+2022/04/03 19:05:13 [notice] 1#1: start worker process 27
+2022/04/03 19:05:13 [notice] 1#1: start worker process 28
+2022/04/03 19:05:13 [notice] 1#1: start worker process 29

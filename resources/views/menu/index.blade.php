@@ -3,11 +3,12 @@
 @section('title', 'menu')
 
 @push('css')
-    <link rel="stylesheet" href="{{asset('/asset/css/menu.css'}}">
+    <link rel="stylesheet" href="{{asset('/asset/css/menu.css')}}">
+
 @endpush
 
 @section('content')
-    <div class="container">
+
         <div class="container-fluid menu-title">
             <h1 class="menu-title-item">
                 Меню
@@ -15,10 +16,12 @@
         </div>
         <div>
             <div class="row">
-                @foreach($burgers as $burger)
-                    @include('burger-card',compact("burger"))
-                @endforeach
+                @forelse($burgers as $burger)
+                    @include('menu.burgerCard',compact("burger"))
+                @empty
+                    <p class="text-center">Нету...</p>
+                @endforelse
             </div>
         </div>
-    </div>
+
 @endsection
