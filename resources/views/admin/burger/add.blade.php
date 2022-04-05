@@ -16,20 +16,19 @@
                             <label for="burgerName">
                                  Название бургера
                             </label>
-                            <input type="text" name="burgerName" class="form-control" id="burgerName" />
+                            <input type="text" name="burgerName" value="{{ old('burgerName') }}" class="form-control" id="burgerName" />
                         </div>
                         <div class="form-group">
-
                             <label for="price">
                                 Цена
                             </label>
-                            <input type="text" name="price" class="form-control" id="price" />
+                            <input type="text" name="price" value="{{ old('price') }}" class="form-control" id="price" />
                         </div>
                         <div class="form-group">
                             <labeL for="category">
                                 Тип
                             </labeL>
-                            <select class="form-select" id="category" name="category">
+                            <select class="form-select" id="category"  name="category">
                                 <option value="0" class="form-control-item" selected> Выберите тип мяса</option>
                                 <option value="1" class="form-control-item"> Из говядины</option>
                                 <option value="2" class="form-control-item">Из курицы</option>
@@ -38,14 +37,12 @@
                         </div>
                         <br>
                         <div class="form-group">
-
                             <label for="Composition">
                                 Состав
                             </label> <br>
                             <label for="CompositionItem">
                                 Добавить компонент
                             </label>
-
                             <input type="text" class="form-control" name="addCompot" id="addCompot"/>
                             <br>
                             <div class="d-flex flex-row">
@@ -73,7 +70,7 @@
                     </form>
                 </div>
                 <div class="col-md-7">
-                    @include('admin.burger.edit',compact('burgers'))
+                    @include('admin.burger.index',compact('burgers'))
                 </div>
             </div>
         </div>
@@ -92,6 +89,7 @@
             let input = document.createElement('input');
             let div = document.createElement('div');
             let p = document.createElement('p');
+            div.classList.add('m-2');
             p.textContent = value;
             div.append(p);
             input.type = 'text';

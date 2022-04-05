@@ -26,11 +26,10 @@ class User extends Authenticatable
 
     /**
      *  Связь с таблицей roles
-     * @return HasMany
      */
-    public function role() : HasMany
+    public function roles()
     {
-        return $this->hasMany(Role::class);
+        return $this->hasMany(Role::class,'id','role_id');
     }
 
     public function basket()
@@ -42,7 +41,7 @@ class User extends Authenticatable
      * Связь с таблицей orders
      * @return HasMany
      */
-    public function order() : HasMany
+    public function orders() : HasMany
     {
         return $this->hasMany(Order::class);
     }

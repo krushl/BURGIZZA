@@ -21,9 +21,9 @@
                                      Email: {{Auth::user()->email}}
                                 </li>
                                 <li class="list-group-item">
-                                     Роль: {{Auth::user()->role}}
+                                     Роль: {{Auth::user()->roles[0]->role}}
                                 </li>
-                                @if(Auth::user()->role === 'admin')
+                                @if(Gate::allows('admin'))
                                     <li class="list-group-item">
                                         <a href="{{ route('admin.index') }}">Admin panel</a>
                                     </li>
@@ -41,7 +41,6 @@
                                     <input type="text" name='userName' class="form-control" id="exampleInputName" />
                                 </div>
                                 <div class="form-group">
-
                                     <label for="exampleInputEmail1">
                                         Почта
                                     </label>

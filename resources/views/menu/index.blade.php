@@ -15,7 +15,7 @@
             </h1>
         </div>
         <div>
-            <div class="row">
+            <div class="d-flex text-center row p-3">
                 @forelse($burgers as $burger)
                     @include('menu.burgerCard',compact("burger"))
                 @empty

@@ -10,12 +10,13 @@ class OrderStatus extends Model
     use HasFactory;
 
     public $timestamps = false;
+
     protected $fillable = [
         'status',
     ];
 
-    public function order()
-    {
-        return $this->belongsTo(Order::class,'status_id','id');
-    }
+//    public function order()
+//    {
+//        return $this->belongsTo(Order::class,'status_id','id');
+//    }
 }

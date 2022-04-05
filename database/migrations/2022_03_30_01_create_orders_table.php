@@ -19,7 +19,7 @@ return new class extends Migration
             $table->float('final_price');
             $table->text('address');
             $table->date('date');
-            $table->foreignId('status_id')->constrained('orders_status')->cascadeOnUpdate()->cascadeOnDelete();
+            $table->foreignId('status_id')->constrained('order_statuses')->cascadeOnUpdate()->cascadeOnDelete();
         });
     }
 

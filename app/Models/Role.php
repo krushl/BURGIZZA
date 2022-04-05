@@ -9,6 +9,7 @@ class Role extends Model
 {
     use HasFactory;
 
+    public const ADMIN_ROLE = 'admin';
     public $timestamps = false;
     /**
      * @inheritdoc
@@ -20,6 +21,6 @@ class Role extends Model
 
     public function user()
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(User::class,'role_id','id');
     }
 }

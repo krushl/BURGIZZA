@@ -60,16 +60,29 @@ Route::prefix('admin')->name('admin.')->group(function () {
         });
 
         Route::prefix('category')->name('category.')->group(function () {
+            Route::get('/index', [AdminController::class, 'categoryIndex'])->name('index');
+
+            Route::get('/add', [AdminController::class, 'categoryAddForm'])->name('addForm');
             Route::post('/add', [AdminController::class, 'categoryAdd'])->name('add');
+
+            Route::get('/edit', [AdminController::class, 'categoryEditForm'])->name('editForm');
             Route::post('/edit', [AdminController::class, 'categoryEdit'])->name('edit');
+
             Route::post('/destroy', [AdminController::class, 'categoryDestroy'])->name('destroy');
         });
 
         Route::prefix('status')->name('status.')->group(function () {
+
+            Route::get('/index', [AdminController::class, 'statusIndex'])->name('index');
+
+            Route::get('/add', [AdminController::class, 'statusAddForm'])->name('addForm');
             Route::post('/add', [AdminController::class, 'statusAdd'])->name('add');
+
+            Route::get('/edit', [AdminController::class, 'statusEditForm'])->name('editForm');
             Route::post('/edit', [AdminController::class, 'statusEdit'])->name('edit');
+
             Route::post('/destroy', [AdminController::class, 'statusDestroy'])->name('destroy');
-            Route::post('/index', [AdminController::class, 'statusIndex'])->name('index');
+
         });
 
         Route::prefix('articles')->name('articles.')->group(function () {
