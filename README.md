@@ -18,7 +18,7 @@
 
 ## URL
 * Сам сайт   
-   ` localhost:80 `
+   ` localhost:8080 `
 * Админер для просмотра бд   
             ` localhost:8081`  
             

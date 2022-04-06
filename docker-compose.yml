@@ -41,7 +41,7 @@ services:
             - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
             - ./storage/docker/logs/nginx/:/var/log/nginx/
         ports:
-             - "80:80"
+             - "8080:80"
         depends_on:
             -   app
         networks:
