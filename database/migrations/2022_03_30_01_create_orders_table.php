@@ -18,6 +18,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained('users')->cascadeOnUpdate()->cascadeOnDelete();
             $table->float('final_price');
             $table->text('address');
+            $table->text('phone');
             $table->date('date');
             $table->foreignId('status_id')->constrained('order_statuses')->cascadeOnUpdate()->cascadeOnDelete();
         });
