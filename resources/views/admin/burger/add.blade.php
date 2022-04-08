@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 @section('title','add borgir')
 @push('css')
     <link rel="stylesheet" href="{{ asset('asset/css/profile.css') }}">

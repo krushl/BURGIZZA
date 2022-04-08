@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('title','add  status')
+@section('title','add  ingredients')
 @push('css')
     <link rel="stylesheet" href="{{ asset('asset/css/profile.css') }}">
 @endpush
@@ -10,13 +10,13 @@
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-5">
-                        <form role="form" action="{{ route('admin.status.add') }}" method="POST" >
+                        <form role="form" action="{{ route('admin.ingredients.add') }}" method="POST" >
                             @csrf
                             <div class="form-group">
-                                <label for="status">
-                                     Статус
+                                <label for="ingredients">
+                                     Ингредиент
                                 </label>
-                                <input type="text" name="status" value="{{ old('status') }}" class="form-control" id="status" />
+                                <input type="text" name="ingredient" value="{{ old('ingredient') }}" class="form-control" id="ingredients" />
                             </div>
                             <br>
                             <input type="submit" class="btn btn-warning" value="Добавить">

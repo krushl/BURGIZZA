@@ -86,11 +86,27 @@ Route::prefix('admin')->name('admin.')->group(function () {
         });
 
         Route::prefix('articles')->name('articles.')->group(function () {
-            Route::post('/add', [AdminController::class, 'articlesAdd'])->name('add');
-            Route::post('/edit', [AdminController::class, 'articlesEdit'])->name('edit');
-            Route::post('/destroy', [AdminController::class, 'articlesDestroy'])->name('destroy');
             Route::post('/index', [AdminController::class, 'articlesIndex'])->name('index');
+
+            Route::post('/add', [AdminController::class, 'articlesAdd'])->name('add');
+            Route::post('/add', [AdminController::class, 'articlesAddForm'])->name('addForm');
+
+            Route::post('/edit', [AdminController::class, 'articlesEdit'])->name('edit');
+            Route::post('/edit', [AdminController::class, 'articlesEditForm'])->name('editForm');
+
+            Route::post('/destroy', [AdminController::class, 'articlesDestroy'])->name('destroy');
         });
 
+        Route::prefix('ingredients')->name('ingredients.')->group(function () {
+            Route::get('/index', [AdminController::class, 'ingredientsIndex'])->name('index');
+
+            Route::post('/add', [AdminController::class, 'ingredientsAdd'])->name('add');
+            Route::get('/add', [AdminController::class, 'ingredientsAddForm'])->name('addForm');
+
+            Route::post('/edit', [AdminController::class, 'ingredientsEdit'])->name('edit');
+            Route::get('/edit', [AdminController::class, 'ingredientsEditForm'])->name('editForm');
+
+            Route::post('/destroy', [AdminController::class, 'ingredientsDestroy'])->name('destroy');
+        });
     });
 });

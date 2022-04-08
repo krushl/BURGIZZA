@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\AddIngredients;
 use App\Models\Burger;
 use App\Models\Category;
 use App\Models\Image;
@@ -232,6 +233,67 @@ class AdminController extends Controller
         $status = OrderStatus::find($request->id);
 
         if(!$status->delete())
+        {
+            return ["result"=>false,"message"=>'Произошла ошибка при удалении'];
+        }
+
+        return ["result"=>true, "message"=>'Успешно удаленно'];
+    }
+
+
+    public function ingredientsIndex()
+    {
+        $ingredients = AddIngredients::all();
+
+        return view('admin.ingredients.index',compact('ingredients'));
+    }
+
+    public function ingredientsAddForm()
+    {
+        return view('admin.ingredients.add');
+    }
+
+    public function ingredientsEditForm(Request $request)
+    {
+        $ingredients = AddIngredients::find($request->ingredient_id);
+
+
+        return view('admin.ingredients.edit',compact('ingredients'));
+    }
+
+    public function ingredientsAdd(Request $request)
+    {
+        $ingredients = AddIngredients::create([
+            'ingredient' => $request->ingredient,
+        ]);
+
+        if (!$ingredients->save()) {
+            return abort(400, 'Что то пошло не так');
+        }
+
+        return redirect()->route('admin.ingredients.index');
+    }
+
+    public function ingredientsEdit(Request $request)
+    {
+        $ingredients = AddIngredients::find($request->ingredients_id);
+
+        if ($ingredients) {
+            $ingredients->ingredient = $request->ingredient;
+
+            if (!$ingredients->save()) {
+                return abort(400, 'Что то пошло не так');
+            }
+        }
+
+        return redirect()->route('admin.ingredients.index');
+    }
+
+    public function ingredientsDestroy(Request $request)
+    {
+        $ingredients = AddIngredients::find($request->id);
+
+        if(!$ingredients->delete())
         {
             return ["result"=>false,"message"=>'Произошла ошибка при удалении'];
         }

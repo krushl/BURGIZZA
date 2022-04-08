@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('title','adminka')
 @push('css')
@@ -20,7 +20,10 @@
                         <a style="color:#111;" href="{{ route('admin.status.index') }}"><div class="admin-button status-button">Статус</div> </a><br>
                     </div>
                     <div class="admin-title col-md-3 d-flex flex-column  justify-content-center align-items-center">
-                        <a style="color:#111;" href="{{ route('admin.burger.burger-addForm') }}"><div class="admin-button articles-button">Новости</div> </a><br>
+                        <a style="color:#111;" href="{{ route('admin.articles.index') }}"><div class="admin-button articles-button">Новости</div> </a><br>
+                    </div>
+                    <div class="admin-title col-md-3 d-flex flex-column  justify-content-center align-items-center">
+                        <a style="color:#111;" href="{{ route('admin.ingredients.index') }}"><div class="admin-button articles-button">Ингредиенты</div> </a><br>
                     </div>
                 </div>
             </div>
