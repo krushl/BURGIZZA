@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->float('price');
-            $table->foreignId('image_id')->constrained('images')->cascadeOnUpdate()->cascadeOnDelete();
+            $table->text('image');
             $table->json('composition');
             $table->foreignId('category_id')->constrained('categories')->cascadeOnUpdate()->cascadeOnDelete();
         });

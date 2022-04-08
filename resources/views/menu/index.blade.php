@@ -9,7 +9,7 @@
 
 @section('content')
     <div class="container-fluid">
-        <div class="row h-50 mb-5">
+        <div class="row h-50 ">
             <div class=" menu-title">
                 <h1 class="menu-title-item">
                     Меню

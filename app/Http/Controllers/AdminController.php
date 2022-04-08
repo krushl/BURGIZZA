@@ -30,25 +30,23 @@ class AdminController extends Controller
 
     public function burgerAdd(Request $request)
     {
-        $img = new Image;
+
         if ($request->file('burgerPic')) {
             $file = $request->file('burgerPic');
             $filename = time() . $file->getClientOriginalName();
 
             Storage::putFileAs(self::UPLOAD_PATH, $file, $filename);
-            $img->picture = $filename;
-
-            if (!$img->save()) {
-                return abort(400, 'Что-то пошло не так');
-            }
+            $burgerImage = $filename;
         }
+
+
 
         $composition = json_encode($request->composition);
         $burger = Burger::create([
             'name' => $request->burgerName,
             'price' => $request->price,
             'composition' => $composition,
-            'image_id' => $img->id,
+            'image' => $burgerImage,
             'category_id' => $request->category,
         ]);
 
@@ -70,24 +68,22 @@ class AdminController extends Controller
     {
         $burger = Burger::find($request->burgerId);
 
-        $img = Image::find($burger->image_id);
 
-        if ($img) {
             if ($request->file('burgerPic')) {
                 $file = $request->file('burgerPic');
                 $filename = time() . $file->getClientOriginalName();
 
-                $path = self::UPLOAD_PATH . $img->picture;
+                $path = self::UPLOAD_PATH . $burger->image;
                 Storage::delete($path);
 
                 Storage::putFileAs(self::UPLOAD_PATH, $file, $filename);
-                $img->picture = $filename;
+                $burger->image = $filename;
 
-                if (!$img->save()) {
+                if (!$burger->save()) {
                     return abort(400, 'beda');
                 }
             }
-        }
+
 
         if ($burger) {
             $composition = json_encode($request->composition);

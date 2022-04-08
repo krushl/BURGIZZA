@@ -18,7 +18,7 @@
         <tr>
             <th scope="row">{{ $burger->id }}</th>
             <td>{{$burger->name}}</td>
-            <td><img src="{{asset('/storage/img/burgers/'.trim($burger->image->picture))}}"
+            <td><img src="{{asset('/storage/img/burgers/'.trim($burger->image))}}"
                      class="img-thumbnail" alt="{{$burger->name}}"></td>
             <td>{{$burger->category->category}}</td>
             <td>{{$burger->beatifulyComposition(json_decode($burger->composition, JSON_UNESCAPED_UNICODE))  }}</td>

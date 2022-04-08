@@ -13,7 +13,7 @@ class Burger extends Model
     protected $fillable = [
         'name',
         'price',
-        'image_id',
+        'image',
         'category_id',
         'composition',
     ];

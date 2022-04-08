@@ -16,7 +16,7 @@ class RegisterController extends Controller
         return view('auth.register');
     }
 
-    public function register(RegisterRequest $request)
+    public function register(Request $request)
     {
         if(Auth::attempt($request->only(['login','password']))){
             return back()->withErrors([
@@ -24,10 +24,10 @@ class RegisterController extends Controller
             ]);
         }
 
-        Gate::allows('admin');
         $user = User::create([
             'login'=>$request->login,
             'password'=> Hash::make($request->password),
+            'role_id' => 2,
         ]);
 
         if($user){

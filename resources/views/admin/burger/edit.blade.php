@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="row">
-                       <img class="img-thumbnail" src="{{asset('/storage/img/burgers/'.trim($burger->image->picture))}}"/>
+                       <img class="img-thumbnail" src="{{asset('/storage/img/burgers/'.trim($burger->image))}}"/>
                             <p>Состав</p>
                             <ul>
                             @forelse(json_decode($burger->composition) as $key=>$value)

@@ -22,10 +22,6 @@ class Order extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function basket()
-    {
-        return $this->hasOne(BasketOrder::class,'order_id','id');
-    }
 
     public function status()
     {
