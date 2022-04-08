@@ -37,9 +37,7 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <label for="Composition">
-                                Состав
-                            </label> <br>
+
                             <label for="CompositionItem">
                                 Добавить компонент
                             </label>
@@ -51,6 +49,9 @@
                             <button type="button" name="price" class="form-control" id="minus">-</button>
                             <br>
                             </div>
+                            <label for="Composition">
+                                Состав
+                            </label> <br>
                             <div id="containerComposition" class="form-group">
 
                             </div>
@@ -88,11 +89,9 @@
         function createInput(value){
             let input = document.createElement('input');
             let div = document.createElement('div');
-            let p = document.createElement('p');
             div.classList.add('m-2');
-            p.textContent = value;
-            div.append(p);
             input.type = 'text';
+            input.value = value;
             input.name = `composition[${value}]`;
             input.classList.add('form-control');
             input.classList.add('m-2');

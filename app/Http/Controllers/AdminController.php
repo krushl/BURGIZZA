@@ -40,8 +40,6 @@ class AdminController extends Controller
             $burgerImage = $filename;
         }
 
-
-
         $composition = json_encode($request->composition);
         $burger = Burger::create([
             'name' => $request->burgerName,
@@ -119,8 +117,6 @@ class AdminController extends Controller
 
         return ['result' => true, 'message' => 'Успешно удалено'];
     }
-
-
 
     public function categoryIndex()
     {
