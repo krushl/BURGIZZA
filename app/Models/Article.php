@@ -14,15 +14,7 @@ class Article extends Model
         'title',
         'content',
         'date',
-        'image_id',
+        'image',
     ];
 
-    /**
-     * Связь с таблицей images
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     */
-    public function image()
-    {
-        return $this->belongsTo(Image::class);
-    }
 }

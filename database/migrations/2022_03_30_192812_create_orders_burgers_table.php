@@ -13,12 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('orders_burgers', function (Blueprint $table) {
+        Schema::create('order_burgers', function (Blueprint $table) {
             $table->foreignId('burger_id')->constrained('burgers')->cascadeOnUpdate()->cascadeOnDelete();
-            $table->foreignId('order_id')->constrained('orders')->unique()->cascadeOnUpdate()->cascadeOnDelete();
+            $table->foreignId('order_id')->constrained('orders')->cascadeOnUpdate()->cascadeOnDelete();
             $table->integer('count');
-            $table->json('special_requests');
-            $table->json('add_ingredients');
+            $table->json('special_requests')->nullable();
+            $table->json('add_ingredients')->nullable();
         });
     }
 

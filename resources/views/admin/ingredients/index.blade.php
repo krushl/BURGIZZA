@@ -12,7 +12,7 @@
 
 @section('content')
 <p><a href="{{ route('admin.ingredients.add') }}">Добавить ингредиент</a></p>
-<table class="table">
+<table class="table table-responsive">
     <thead>
     <tr>
         <th scope="col">#</th>

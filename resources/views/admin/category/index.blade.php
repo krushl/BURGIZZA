@@ -12,8 +12,8 @@
 
 @section('content')
 <p><a href="{{ route('admin.category.add') }}">Добавить категорию</a></p>
-<table class="table">
-    <thead>
+<table class="table table-responsive table-striped">
+    <thead class="thead-dark">
     <tr>
         <th scope="col">#</th>
         <th scope="col">Категория</th>

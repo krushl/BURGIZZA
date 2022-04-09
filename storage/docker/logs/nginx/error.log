@@ -705,3 +705,277 @@
 2022/04/03 19:05:13 [notice] 1#1: start worker process 27
 2022/04/03 19:05:13 [notice] 1#1: start worker process 28
 2022/04/03 19:05:13 [notice] 1#1: start worker process 29
+2022/04/03 22:07:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/03 22:07:23 [notice] 22#22: gracefully shutting down
+2022/04/03 22:07:23 [notice] 23#23: gracefully shutting down
+2022/04/03 22:07:23 [notice] 24#24: gracefully shutting down
+2022/04/03 22:07:23 [notice] 25#25: gracefully shutting down
+2022/04/03 22:07:23 [notice] 26#26: gracefully shutting down
+2022/04/03 22:07:23 [notice] 27#27: gracefully shutting down
+2022/04/03 22:07:23 [notice] 28#28: gracefully shutting down
+2022/04/03 22:07:23 [notice] 29#29: gracefully shutting down
+2022/04/03 22:07:23 [notice] 24#24: exiting
+2022/04/03 22:07:23 [notice] 25#25: exiting
+2022/04/03 22:07:23 [notice] 26#26: exiting
+2022/04/03 22:07:23 [notice] 29#29: exiting
+2022/04/03 22:07:23 [notice] 28#28: exiting
+2022/04/03 22:07:23 [notice] 25#25: exit
+2022/04/03 22:07:23 [notice] 29#29: exit
+2022/04/03 22:07:23 [notice] 24#24: exit
+2022/04/03 22:07:23 [notice] 28#28: exit
+2022/04/03 22:07:23 [notice] 26#26: exit
+2022/04/03 22:07:23 [notice] 23#23: exiting
+2022/04/03 22:07:23 [notice] 23#23: exit
+2022/04/03 22:07:23 [notice] 22#22: exiting
+2022/04/03 22:07:23 [notice] 22#22: exit
+2022/04/03 22:07:23 [notice] 27#27: exiting
+2022/04/03 22:07:23 [notice] 27#27: exit
+2022/04/03 22:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/03 22:07:24 [notice] 1#1: worker process 22 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 24 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 25 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 27 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 29 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/03 22:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/04/03 22:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/04/03 22:07:24 [notice] 1#1: worker process 26 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 28 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/03 22:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/03 22:07:24 [notice] 1#1: worker process 23 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: exit
+2022/04/08 11:50:53 [notice] 1#1: using the "epoll" event method
+2022/04/08 11:50:53 [notice] 1#1: nginx/1.21.4
+2022/04/08 11:50:53 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/08 11:50:53 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/08 11:50:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/08 11:50:53 [notice] 1#1: start worker processes
+2022/04/08 11:50:53 [notice] 1#1: start worker process 22
+2022/04/08 11:50:53 [notice] 1#1: start worker process 23
+2022/04/08 11:50:53 [notice] 1#1: start worker process 24
+2022/04/08 11:50:53 [notice] 1#1: start worker process 25
+2022/04/08 11:50:53 [notice] 1#1: start worker process 26
+2022/04/08 11:50:53 [notice] 1#1: start worker process 27
+2022/04/08 11:50:53 [notice] 1#1: start worker process 28
+2022/04/08 11:50:53 [notice] 1#1: start worker process 29
+2022/04/08 12:36:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/08 12:36:22 [notice] 22#22: gracefully shutting down
+2022/04/08 12:36:22 [notice] 23#23: gracefully shutting down
+2022/04/08 12:36:22 [notice] 24#24: gracefully shutting down
+2022/04/08 12:36:22 [notice] 25#25: gracefully shutting down
+2022/04/08 12:36:22 [notice] 26#26: gracefully shutting down
+2022/04/08 12:36:22 [notice] 27#27: gracefully shutting down
+2022/04/08 12:36:22 [notice] 22#22: exiting
+2022/04/08 12:36:22 [notice] 23#23: exiting
+2022/04/08 12:36:22 [notice] 24#24: exiting
+2022/04/08 12:36:22 [notice] 25#25: exiting
+2022/04/08 12:36:22 [notice] 26#26: exiting
+2022/04/08 12:36:22 [notice] 27#27: exiting
+2022/04/08 12:36:22 [notice] 22#22: exit
+2022/04/08 12:36:22 [notice] 24#24: exit
+2022/04/08 12:36:22 [notice] 23#23: exit
+2022/04/08 12:36:22 [notice] 26#26: exit
+2022/04/08 12:36:22 [notice] 25#25: exit
+2022/04/08 12:36:22 [notice] 27#27: exit
+2022/04/08 12:36:22 [notice] 29#29: gracefully shutting down
+2022/04/08 12:36:22 [notice] 29#29: exiting
+2022/04/08 12:36:22 [notice] 28#28: gracefully shutting down
+2022/04/08 12:36:22 [notice] 28#28: exiting
+2022/04/08 12:36:22 [notice] 29#29: exit
+2022/04/08 12:36:22 [notice] 28#28: exit
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/08 12:36:22 [notice] 1#1: worker process 24 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: worker process 23 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/08 12:36:22 [notice] 1#1: worker process 25 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: worker process 27 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/04/08 12:36:22 [notice] 1#1: worker process 28 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/04/08 12:36:22 [notice] 1#1: worker process 22 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: worker process 26 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: worker process 29 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: exit
+2022/04/08 14:38:25 [notice] 1#1: using the "epoll" event method
+2022/04/08 14:38:25 [notice] 1#1: nginx/1.21.4
+2022/04/08 14:38:25 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/08 14:38:25 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/08 14:38:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/08 14:38:25 [notice] 1#1: start worker processes
+2022/04/08 14:38:25 [notice] 1#1: start worker process 22
+2022/04/08 14:38:25 [notice] 1#1: start worker process 23
+2022/04/08 14:38:25 [notice] 1#1: start worker process 24
+2022/04/08 14:38:25 [notice] 1#1: start worker process 25
+2022/04/08 14:38:25 [notice] 1#1: start worker process 26
+2022/04/08 14:38:25 [notice] 1#1: start worker process 27
+2022/04/08 14:38:25 [notice] 1#1: start worker process 28
+2022/04/08 14:38:25 [notice] 1#1: start worker process 29
+2022/04/08 15:24:33 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:33 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:33 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:33 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:59 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:59 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:59 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:59 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:09 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:09 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:09 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:09 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:46 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:46 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:46 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:46 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:29 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:29 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:29 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:29 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:32 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:32 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:32 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:32 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:18 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:18 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:18 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:18 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 22#22: *131 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 22#22: *131 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 23#23: *135 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 23#23: *135 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *135 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *135 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:22 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:22 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:22 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:22 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:39 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:39 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:39 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:39 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:33 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:33 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:33 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:33 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:42 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:42 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:42 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:42 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:50 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:50 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:50 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:50 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:00 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:00 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:00 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:00 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:07 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:07 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:07 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:07 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:18 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:18 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:18 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:18 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:48 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:48 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:48 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:48 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:50 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:50 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:50 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:50 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:17 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:17 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:17 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:17 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:18 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:18 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:18 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:18 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:55 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:55 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:55 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:55 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:51:36 [error] 22#22: *244 client intended to send too large body: 1454938 bytes, client: 172.19.0.1, server: , request: "POST /admin/articles/add HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/add"
+2022/04/08 15:51:43 [error] 23#23: *243 client intended to send too large body: 1454938 bytes, client: 172.19.0.1, server: , request: "POST /admin/articles/add HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/add"
+2022/04/08 18:09:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/08 18:09:33 [notice] 22#22: gracefully shutting down
+2022/04/08 18:09:33 [notice] 25#25: gracefully shutting down
+2022/04/08 18:09:33 [notice] 26#26: gracefully shutting down
+2022/04/08 18:09:33 [notice] 27#27: gracefully shutting down
+2022/04/08 18:09:33 [notice] 28#28: gracefully shutting down
+2022/04/08 18:09:33 [notice] 29#29: gracefully shutting down
+2022/04/08 18:09:33 [notice] 22#22: exiting
+2022/04/08 18:09:33 [notice] 25#25: exiting
+2022/04/08 18:09:33 [notice] 26#26: exiting
+2022/04/08 18:09:33 [notice] 27#27: exiting
+2022/04/08 18:09:33 [notice] 28#28: exiting
+2022/04/08 18:09:33 [notice] 29#29: exiting
+2022/04/08 18:09:33 [notice] 23#23: gracefully shutting down
+2022/04/08 18:09:33 [notice] 23#23: exiting
+2022/04/08 18:09:33 [notice] 24#24: gracefully shutting down
+2022/04/08 18:09:33 [notice] 24#24: exiting
+2022/04/08 18:09:33 [notice] 23#23: exit
+2022/04/08 18:09:33 [notice] 25#25: exit
+2022/04/08 18:09:33 [notice] 22#22: exit
+2022/04/08 18:09:33 [notice] 24#24: exit
+2022/04/08 18:09:33 [notice] 29#29: exit
+2022/04/08 18:09:33 [notice] 26#26: exit
+2022/04/08 18:09:33 [notice] 27#27: exit
+2022/04/08 18:09:33 [notice] 28#28: exit
+2022/04/08 18:09:35 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/08 18:09:35 [notice] 1#1: worker process 22 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 23 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 24 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 25 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 26 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 27 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 28 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 29 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: exit
+2022/04/08 18:12:06 [notice] 1#1: using the "epoll" event method
+2022/04/08 18:12:06 [notice] 1#1: nginx/1.21.4
+2022/04/08 18:12:06 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/08 18:12:06 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/08 18:12:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/08 18:12:06 [notice] 1#1: start worker processes
+2022/04/08 18:12:06 [notice] 1#1: start worker process 23
+2022/04/08 18:12:06 [notice] 1#1: start worker process 24
+2022/04/08 18:12:06 [notice] 1#1: start worker process 25
+2022/04/08 18:12:06 [notice] 1#1: start worker process 26
+2022/04/08 18:12:06 [notice] 1#1: start worker process 27
+2022/04/08 18:12:06 [notice] 1#1: start worker process 28
+2022/04/08 18:12:06 [notice] 1#1: start worker process 29
+2022/04/08 18:12:06 [notice] 1#1: start worker process 30

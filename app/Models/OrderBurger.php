@@ -10,6 +10,8 @@ class OrderBurger extends Model
     use HasFactory;
 
     public $timestamps = false;
+    protected $primaryKey = null;
+    public $incrementing = false;
     protected $fillable = [
         'burger_id',
         'order_id',

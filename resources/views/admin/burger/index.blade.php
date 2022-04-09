@@ -1,7 +1,7 @@
 @section('meta')
     <meta name="csrf-token" content="{{ csrf_token() }}">
 @endsection
-<table class="table">
+<table class="table table-responsive">
     <thead>
     <tr>
         <th scope="col">#</th>
