@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\BasketController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
@@ -43,6 +44,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'profile'])->name('profile');
     Route::post('/profile/change', [ProfileController::class, 'changeOptional'])->name('changeOptional');
     Route::get('/basket')->name('basket');
+
+    Route::post('/basket/add', [BasketController::class, 'basketAdd'])->name('basketAdd');
 });
 
 Route::prefix('admin')->name('admin.')->group(function () {
@@ -86,13 +89,13 @@ Route::prefix('admin')->name('admin.')->group(function () {
         });
 
         Route::prefix('articles')->name('articles.')->group(function () {
-            Route::post('/index', [AdminController::class, 'articlesIndex'])->name('index');
+            Route::get('/index', [AdminController::class, 'articlesIndex'])->name('index');
 
             Route::post('/add', [AdminController::class, 'articlesAdd'])->name('add');
-            Route::post('/add', [AdminController::class, 'articlesAddForm'])->name('addForm');
+            Route::get('/add', [AdminController::class, 'articlesAddForm'])->name('addForm');
 
             Route::post('/edit', [AdminController::class, 'articlesEdit'])->name('edit');
-            Route::post('/edit', [AdminController::class, 'articlesEditForm'])->name('editForm');
+            Route::get('/edit', [AdminController::class, 'articlesEditForm'])->name('editForm');
 
             Route::post('/destroy', [AdminController::class, 'articlesDestroy'])->name('destroy');
         });

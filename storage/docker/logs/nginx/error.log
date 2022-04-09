@@ -1,0 +1,981 @@
+2022/03/30 21:56:43 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:56:49 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:56:53 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:56:59 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:57:03 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:57:05 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:57:10 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:57:17 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:57:31 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:57:58 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:58:51 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:59:51 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:59:56 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 21:59:59 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 22:00:01 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 22:00:04 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 22:00:07 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 22:00:11 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 22:00:20 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 22:00:34 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 22:01:01 [emerg] 1#1: invalid number of arguments in "try_files" directive in /etc/nginx/conf.d/app.conf:9
+2022/03/30 22:01:53 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:02:10 [emerg] 1#1: host not found in upstream "burgizza-app" in /etc/nginx/conf.d/app.conf:11
+2022/03/30 22:02:18 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:02:24 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:02:27 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:02:30 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:02:32 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:02:36 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:02:44 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:02:58 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:03:25 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:04:36 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:04:39 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:04:41 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:04:44 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:04:47 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:04:49 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:04:54 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:05:01 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:05:15 [emerg] 1#1: unknown "fast_cgi_script_name" variable
+2022/03/30 22:05:42 [emerg] 1#1: invalid parameter "$fast_cgi_script_name" in /etc/nginx/conf.d/app.conf:14
+2022/03/30 22:06:21 [emerg] 1#1: invalid parameter "$fast_cgi_script_name" in /etc/nginx/conf.d/app.conf:14
+2022/03/30 22:06:24 [emerg] 1#1: invalid parameter "$fast_cgi_script_name" in /etc/nginx/conf.d/app.conf:14
+2022/03/30 22:06:28 [emerg] 1#1: invalid parameter "$fast_cgi_script_name" in /etc/nginx/conf.d/app.conf:14
+2022/03/30 22:06:31 [emerg] 1#1: invalid parameter "$fast_cgi_script_name" in /etc/nginx/conf.d/app.conf:14
+2022/03/30 22:06:34 [emerg] 1#1: invalid parameter "$fast_cgi_script_name" in /etc/nginx/conf.d/app.conf:14
+2022/03/30 22:06:37 [emerg] 1#1: invalid parameter "$fast_cgi_script_name" in /etc/nginx/conf.d/app.conf:14
+2022/03/30 22:06:41 [emerg] 1#1: invalid parameter "$fast_cgi_script_name" in /etc/nginx/conf.d/app.conf:14
+2022/03/30 22:06:48 [notice] 1#1: using the "epoll" event method
+2022/03/30 22:06:48 [notice] 1#1: nginx/1.21.4
+2022/03/30 22:06:48 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/03/30 22:06:48 [notice] 1#1: OS: Linux 5.13.0-37-generic
+2022/03/30 22:06:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/30 22:06:48 [notice] 1#1: start worker processes
+2022/03/30 22:06:48 [notice] 1#1: start worker process 22
+2022/03/30 22:06:48 [notice] 1#1: start worker process 23
+2022/03/30 22:06:48 [notice] 1#1: start worker process 24
+2022/03/30 22:06:48 [notice] 1#1: start worker process 25
+2022/03/30 22:06:48 [notice] 1#1: start worker process 26
+2022/03/30 22:06:48 [notice] 1#1: start worker process 27
+2022/03/30 22:06:48 [notice] 1#1: start worker process 28
+2022/03/30 22:06:48 [notice] 1#1: start worker process 29
+2022/03/30 22:06:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/30 22:06:49 [notice] 22#22: gracefully shutting down
+2022/03/30 22:06:49 [notice] 23#23: gracefully shutting down
+2022/03/30 22:06:49 [notice] 24#24: gracefully shutting down
+2022/03/30 22:06:49 [notice] 25#25: gracefully shutting down
+2022/03/30 22:06:49 [notice] 27#27: gracefully shutting down
+2022/03/30 22:06:49 [notice] 22#22: exiting
+2022/03/30 22:06:49 [notice] 28#28: gracefully shutting down
+2022/03/30 22:06:49 [notice] 29#29: gracefully shutting down
+2022/03/30 22:06:49 [notice] 23#23: exiting
+2022/03/30 22:06:49 [notice] 24#24: exiting
+2022/03/30 22:06:49 [notice] 25#25: exiting
+2022/03/30 22:06:49 [notice] 27#27: exiting
+2022/03/30 22:06:49 [notice] 28#28: exiting
+2022/03/30 22:06:49 [notice] 29#29: exiting
+2022/03/30 22:06:49 [notice] 22#22: exit
+2022/03/30 22:06:49 [notice] 23#23: exit
+2022/03/30 22:06:49 [notice] 25#25: exit
+2022/03/30 22:06:49 [notice] 29#29: exit
+2022/03/30 22:06:49 [notice] 28#28: exit
+2022/03/30 22:06:49 [notice] 24#24: exit
+2022/03/30 22:06:49 [notice] 27#27: exit
+2022/03/30 22:06:49 [notice] 26#26: gracefully shutting down
+2022/03/30 22:06:49 [notice] 26#26: exiting
+2022/03/30 22:06:49 [notice] 26#26: exit
+2022/03/30 22:06:49 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/03/30 22:06:49 [notice] 1#1: worker process 28 exited with code 0
+2022/03/30 22:06:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/30 22:06:49 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/03/30 22:06:49 [notice] 1#1: worker process 24 exited with code 0
+2022/03/30 22:06:49 [notice] 1#1: worker process 26 exited with code 0
+2022/03/30 22:06:49 [notice] 1#1: worker process 27 exited with code 0
+2022/03/30 22:06:49 [notice] 1#1: worker process 29 exited with code 0
+2022/03/30 22:06:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/30 22:06:49 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/30 22:06:49 [notice] 1#1: worker process 25 exited with code 0
+2022/03/30 22:06:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/30 22:06:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/30 22:06:49 [notice] 1#1: worker process 22 exited with code 0
+2022/03/30 22:06:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/30 22:06:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/30 22:06:49 [notice] 1#1: worker process 23 exited with code 0
+2022/03/30 22:06:49 [notice] 1#1: exit
+2022/03/30 22:07:10 [notice] 1#1: using the "epoll" event method
+2022/03/30 22:07:10 [notice] 1#1: nginx/1.21.4
+2022/03/30 22:07:10 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/03/30 22:07:10 [notice] 1#1: OS: Linux 5.13.0-37-generic
+2022/03/30 22:07:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/30 22:07:10 [notice] 1#1: start worker processes
+2022/03/30 22:07:10 [notice] 1#1: start worker process 23
+2022/03/30 22:07:10 [notice] 1#1: start worker process 24
+2022/03/30 22:07:10 [notice] 1#1: start worker process 25
+2022/03/30 22:07:10 [notice] 1#1: start worker process 26
+2022/03/30 22:07:10 [notice] 1#1: start worker process 27
+2022/03/30 22:07:10 [notice] 1#1: start worker process 28
+2022/03/30 22:07:10 [notice] 1#1: start worker process 29
+2022/03/30 22:07:10 [notice] 1#1: start worker process 30
+2022/03/30 22:08:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/30 22:08:22 [notice] 23#23: gracefully shutting down
+2022/03/30 22:08:22 [notice] 24#24: gracefully shutting down
+2022/03/30 22:08:22 [notice] 25#25: gracefully shutting down
+2022/03/30 22:08:22 [notice] 26#26: gracefully shutting down
+2022/03/30 22:08:22 [notice] 27#27: gracefully shutting down
+2022/03/30 22:08:22 [notice] 28#28: gracefully shutting down
+2022/03/30 22:08:22 [notice] 25#25: exiting
+2022/03/30 22:08:22 [notice] 29#29: gracefully shutting down
+2022/03/30 22:08:22 [notice] 26#26: exiting
+2022/03/30 22:08:22 [notice] 27#27: exiting
+2022/03/30 22:08:22 [notice] 24#24: exiting
+2022/03/30 22:08:22 [notice] 30#30: gracefully shutting down
+2022/03/30 22:08:22 [notice] 29#29: exiting
+2022/03/30 22:08:22 [notice] 30#30: exiting
+2022/03/30 22:08:22 [notice] 28#28: exiting
+2022/03/30 22:08:22 [notice] 26#26: exit
+2022/03/30 22:08:22 [notice] 25#25: exit
+2022/03/30 22:08:22 [notice] 24#24: exit
+2022/03/30 22:08:22 [notice] 27#27: exit
+2022/03/30 22:08:22 [notice] 29#29: exit
+2022/03/30 22:08:22 [notice] 30#30: exit
+2022/03/30 22:08:22 [notice] 28#28: exit
+2022/03/30 22:08:22 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/30 22:08:22 [notice] 1#1: worker process 24 exited with code 0
+2022/03/30 22:08:22 [notice] 1#1: worker process 26 exited with code 0
+2022/03/30 22:08:22 [notice] 1#1: worker process 28 exited with code 0
+2022/03/30 22:08:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/30 22:08:22 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/30 22:08:22 [notice] 1#1: worker process 25 exited with code 0
+2022/03/30 22:08:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/30 22:08:22 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/03/30 22:08:22 [notice] 1#1: worker process 27 exited with code 0
+2022/03/30 22:08:22 [notice] 1#1: worker process 30 exited with code 0
+2022/03/30 22:08:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/30 22:08:22 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/03/30 22:08:22 [notice] 1#1: worker process 29 exited with code 0
+2022/03/30 22:08:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/30 22:08:23 [notice] 23#23: exiting
+2022/03/30 22:08:23 [notice] 23#23: exit
+2022/03/30 22:08:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/30 22:08:23 [notice] 1#1: worker process 23 exited with code 0
+2022/03/30 22:08:23 [notice] 1#1: exit
+2022/03/30 22:08:46 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:08:49 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:08:51 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:08:54 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:08:57 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:09:00 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:09:04 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:09:12 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:09:26 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:09:53 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/30 22:10:45 [emerg] 1#1: invalid number of arguments in "fastcgi_param" directive in /etc/nginx/conf.d/app.conf:15
+2022/03/31 15:29:55 [notice] 1#1: using the "epoll" event method
+2022/03/31 15:29:55 [notice] 1#1: nginx/1.21.4
+2022/03/31 15:29:55 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/03/31 15:29:55 [notice] 1#1: OS: Linux 5.13.0-37-generic
+2022/03/31 15:29:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/31 15:29:55 [notice] 1#1: start worker processes
+2022/03/31 15:29:55 [notice] 1#1: start worker process 22
+2022/03/31 15:29:55 [notice] 1#1: start worker process 23
+2022/03/31 15:29:55 [notice] 1#1: start worker process 24
+2022/03/31 15:29:55 [notice] 1#1: start worker process 25
+2022/03/31 15:29:55 [notice] 1#1: start worker process 26
+2022/03/31 15:29:55 [notice] 1#1: start worker process 27
+2022/03/31 15:29:55 [notice] 1#1: start worker process 28
+2022/03/31 15:29:55 [notice] 1#1: start worker process 29
+2022/03/31 15:42:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/31 15:42:08 [notice] 22#22: gracefully shutting down
+2022/03/31 15:42:08 [notice] 23#23: gracefully shutting down
+2022/03/31 15:42:08 [notice] 24#24: gracefully shutting down
+2022/03/31 15:42:08 [notice] 25#25: gracefully shutting down
+2022/03/31 15:42:08 [notice] 26#26: gracefully shutting down
+2022/03/31 15:42:08 [notice] 22#22: exiting
+2022/03/31 15:42:08 [notice] 23#23: exiting
+2022/03/31 15:42:08 [notice] 27#27: gracefully shutting down
+2022/03/31 15:42:08 [notice] 28#28: gracefully shutting down
+2022/03/31 15:42:08 [notice] 25#25: exiting
+2022/03/31 15:42:08 [notice] 24#24: exiting
+2022/03/31 15:42:08 [notice] 26#26: exiting
+2022/03/31 15:42:08 [notice] 28#28: exiting
+2022/03/31 15:42:08 [notice] 27#27: exiting
+2022/03/31 15:42:08 [notice] 22#22: exit
+2022/03/31 15:42:08 [notice] 23#23: exit
+2022/03/31 15:42:08 [notice] 24#24: exit
+2022/03/31 15:42:08 [notice] 25#25: exit
+2022/03/31 15:42:08 [notice] 26#26: exit
+2022/03/31 15:42:08 [notice] 28#28: exit
+2022/03/31 15:42:08 [notice] 27#27: exit
+2022/03/31 15:42:08 [notice] 29#29: gracefully shutting down
+2022/03/31 15:42:08 [notice] 29#29: exiting
+2022/03/31 15:42:08 [notice] 29#29: exit
+2022/03/31 15:42:09 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/31 15:42:09 [notice] 1#1: worker process 24 exited with code 0
+2022/03/31 15:42:09 [notice] 1#1: worker process 25 exited with code 0
+2022/03/31 15:42:09 [notice] 1#1: worker process 27 exited with code 0
+2022/03/31 15:42:09 [notice] 1#1: worker process 29 exited with code 0
+2022/03/31 15:42:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/31 15:42:09 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/03/31 15:42:09 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/31 15:42:09 [notice] 1#1: worker process 23 exited with code 0
+2022/03/31 15:42:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/31 15:42:09 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/31 15:42:09 [notice] 1#1: worker process 26 exited with code 0
+2022/03/31 15:42:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/31 15:42:09 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/03/31 15:42:09 [notice] 1#1: worker process 22 exited with code 0
+2022/03/31 15:42:09 [notice] 1#1: worker process 28 exited with code 0
+2022/03/31 15:42:09 [notice] 1#1: exit
+2022/03/31 15:44:52 [notice] 1#1: using the "epoll" event method
+2022/03/31 15:44:52 [notice] 1#1: nginx/1.21.4
+2022/03/31 15:44:52 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/03/31 15:44:52 [notice] 1#1: OS: Linux 5.13.0-37-generic
+2022/03/31 15:44:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/31 15:44:52 [notice] 1#1: start worker processes
+2022/03/31 15:44:52 [notice] 1#1: start worker process 23
+2022/03/31 15:44:52 [notice] 1#1: start worker process 24
+2022/03/31 15:44:52 [notice] 1#1: start worker process 25
+2022/03/31 15:44:52 [notice] 1#1: start worker process 26
+2022/03/31 15:44:52 [notice] 1#1: start worker process 27
+2022/03/31 15:44:52 [notice] 1#1: start worker process 28
+2022/03/31 15:44:52 [notice] 1#1: start worker process 29
+2022/03/31 15:44:52 [notice] 1#1: start worker process 30
+2022/03/31 15:46:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/31 15:46:33 [notice] 24#24: gracefully shutting down
+2022/03/31 15:46:33 [notice] 23#23: gracefully shutting down
+2022/03/31 15:46:33 [notice] 25#25: gracefully shutting down
+2022/03/31 15:46:33 [notice] 26#26: gracefully shutting down
+2022/03/31 15:46:33 [notice] 24#24: exiting
+2022/03/31 15:46:33 [notice] 27#27: gracefully shutting down
+2022/03/31 15:46:33 [notice] 23#23: exiting
+2022/03/31 15:46:33 [notice] 25#25: exiting
+2022/03/31 15:46:33 [notice] 26#26: exiting
+2022/03/31 15:46:33 [notice] 29#29: gracefully shutting down
+2022/03/31 15:46:33 [notice] 27#27: exiting
+2022/03/31 15:46:33 [notice] 29#29: exiting
+2022/03/31 15:46:33 [notice] 23#23: exit
+2022/03/31 15:46:33 [notice] 25#25: exit
+2022/03/31 15:46:33 [notice] 26#26: exit
+2022/03/31 15:46:33 [notice] 24#24: exit
+2022/03/31 15:46:33 [notice] 27#27: exit
+2022/03/31 15:46:33 [notice] 29#29: exit
+2022/03/31 15:46:33 [notice] 28#28: gracefully shutting down
+2022/03/31 15:46:33 [notice] 30#30: gracefully shutting down
+2022/03/31 15:46:33 [notice] 28#28: exiting
+2022/03/31 15:46:33 [notice] 30#30: exiting
+2022/03/31 15:46:33 [notice] 28#28: exit
+2022/03/31 15:46:33 [notice] 30#30: exit
+2022/03/31 15:46:33 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/03/31 15:46:33 [notice] 1#1: worker process 25 exited with code 0
+2022/03/31 15:46:33 [notice] 1#1: worker process 26 exited with code 0
+2022/03/31 15:46:33 [notice] 1#1: worker process 29 exited with code 0
+2022/03/31 15:46:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/31 15:46:33 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/31 15:46:33 [notice] 1#1: worker process 23 exited with code 0
+2022/03/31 15:46:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/31 15:46:33 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/03/31 15:46:33 [notice] 1#1: worker process 30 exited with code 0
+2022/03/31 15:46:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/31 15:46:33 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/03/31 15:46:33 [notice] 1#1: worker process 24 exited with code 0
+2022/03/31 15:46:33 [notice] 1#1: worker process 27 exited with code 0
+2022/03/31 15:46:33 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/31 15:46:33 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/03/31 15:46:33 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/03/31 15:46:33 [notice] 1#1: worker process 28 exited with code 0
+2022/03/31 15:46:33 [notice] 1#1: exit
+2022/03/31 15:47:31 [notice] 1#1: using the "epoll" event method
+2022/03/31 15:47:31 [notice] 1#1: nginx/1.21.4
+2022/03/31 15:47:31 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/03/31 15:47:31 [notice] 1#1: OS: Linux 5.13.0-37-generic
+2022/03/31 15:47:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/31 15:47:31 [notice] 1#1: start worker processes
+2022/03/31 15:47:31 [notice] 1#1: start worker process 22
+2022/03/31 15:47:31 [notice] 1#1: start worker process 23
+2022/03/31 15:47:31 [notice] 1#1: start worker process 24
+2022/03/31 15:47:31 [notice] 1#1: start worker process 25
+2022/03/31 15:47:31 [notice] 1#1: start worker process 26
+2022/03/31 15:47:31 [notice] 1#1: start worker process 27
+2022/03/31 15:47:31 [notice] 1#1: start worker process 28
+2022/03/31 15:47:31 [notice] 1#1: start worker process 29
+2022/03/31 15:48:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/31 15:48:09 [notice] 22#22: gracefully shutting down
+2022/03/31 15:48:09 [notice] 23#23: gracefully shutting down
+2022/03/31 15:48:09 [notice] 24#24: gracefully shutting down
+2022/03/31 15:48:09 [notice] 25#25: gracefully shutting down
+2022/03/31 15:48:09 [notice] 26#26: gracefully shutting down
+2022/03/31 15:48:09 [notice] 22#22: exiting
+2022/03/31 15:48:09 [notice] 27#27: gracefully shutting down
+2022/03/31 15:48:09 [notice] 23#23: exiting
+2022/03/31 15:48:09 [notice] 24#24: exiting
+2022/03/31 15:48:09 [notice] 25#25: exiting
+2022/03/31 15:48:09 [notice] 26#26: exiting
+2022/03/31 15:48:09 [notice] 27#27: exiting
+2022/03/31 15:48:09 [notice] 22#22: exit
+2022/03/31 15:48:09 [notice] 23#23: exit
+2022/03/31 15:48:09 [notice] 24#24: exit
+2022/03/31 15:48:09 [notice] 25#25: exit
+2022/03/31 15:48:09 [notice] 26#26: exit
+2022/03/31 15:48:09 [notice] 27#27: exit
+2022/03/31 15:48:09 [notice] 29#29: gracefully shutting down
+2022/03/31 15:48:09 [notice] 29#29: exiting
+2022/03/31 15:48:09 [notice] 29#29: exit
+2022/03/31 15:48:09 [notice] 28#28: gracefully shutting down
+2022/03/31 15:48:09 [notice] 28#28: exiting
+2022/03/31 15:48:09 [notice] 28#28: exit
+2022/03/31 15:48:09 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/03/31 15:48:09 [notice] 1#1: worker process 23 exited with code 0
+2022/03/31 15:48:09 [notice] 1#1: worker process 25 exited with code 0
+2022/03/31 15:48:09 [notice] 1#1: worker process 26 exited with code 0
+2022/03/31 15:48:09 [notice] 1#1: worker process 27 exited with code 0
+2022/03/31 15:48:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/31 15:48:09 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/31 15:48:09 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/03/31 15:48:09 [notice] 1#1: worker process 29 exited with code 0
+2022/03/31 15:48:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/31 15:48:09 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/31 15:48:09 [notice] 1#1: worker process 22 exited with code 0
+2022/03/31 15:48:09 [notice] 1#1: worker process 28 exited with code 0
+2022/03/31 15:48:09 [notice] 1#1: worker process 24 exited with code 0
+2022/03/31 15:48:09 [notice] 1#1: exit
+2022/03/31 15:48:43 [notice] 1#1: using the "epoll" event method
+2022/03/31 15:48:43 [notice] 1#1: nginx/1.21.4
+2022/03/31 15:48:43 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/03/31 15:48:43 [notice] 1#1: OS: Linux 5.13.0-37-generic
+2022/03/31 15:48:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/31 15:48:43 [notice] 1#1: start worker processes
+2022/03/31 15:48:43 [notice] 1#1: start worker process 23
+2022/03/31 15:48:43 [notice] 1#1: start worker process 24
+2022/03/31 15:48:43 [notice] 1#1: start worker process 25
+2022/03/31 15:48:43 [notice] 1#1: start worker process 26
+2022/03/31 15:48:43 [notice] 1#1: start worker process 27
+2022/03/31 15:48:43 [notice] 1#1: start worker process 28
+2022/03/31 15:48:43 [notice] 1#1: start worker process 29
+2022/03/31 15:48:43 [notice] 1#1: start worker process 30
+2022/03/31 20:09:08 [notice] 1#1: using the "epoll" event method
+2022/03/31 20:09:08 [notice] 1#1: nginx/1.21.4
+2022/03/31 20:09:08 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/03/31 20:09:08 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/03/31 20:09:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/31 20:09:08 [notice] 1#1: start worker processes
+2022/03/31 20:09:08 [notice] 1#1: start worker process 22
+2022/03/31 20:09:08 [notice] 1#1: start worker process 23
+2022/03/31 20:09:08 [notice] 1#1: start worker process 24
+2022/03/31 20:09:08 [notice] 1#1: start worker process 25
+2022/03/31 20:09:08 [notice] 1#1: start worker process 26
+2022/03/31 20:09:08 [notice] 1#1: start worker process 27
+2022/03/31 20:09:08 [notice] 1#1: start worker process 28
+2022/03/31 20:09:08 [notice] 1#1: start worker process 29
+2022/04/01 20:52:17 [notice] 1#1: using the "epoll" event method
+2022/04/01 20:52:17 [notice] 1#1: nginx/1.21.4
+2022/04/01 20:52:17 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/04/01 20:52:17 [notice] 1#1: OS: Linux 5.13.0-28-generic
+2022/04/01 20:52:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/01 20:52:17 [notice] 1#1: start worker processes
+2022/04/01 20:52:17 [notice] 1#1: start worker process 23
+2022/04/01 20:52:17 [notice] 1#1: start worker process 24
+2022/04/01 20:52:17 [notice] 1#1: start worker process 25
+2022/04/01 20:52:17 [notice] 1#1: start worker process 26
+2022/04/02 05:59:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/02 05:59:52 [notice] 23#23: gracefully shutting down
+2022/04/02 05:59:52 [notice] 23#23: exiting
+2022/04/02 05:59:52 [notice] 25#25: gracefully shutting down
+2022/04/02 05:59:52 [notice] 26#26: gracefully shutting down
+2022/04/02 05:59:52 [notice] 26#26: exiting
+2022/04/02 05:59:52 [notice] 25#25: exiting
+2022/04/02 05:59:52 [notice] 23#23: exit
+2022/04/02 05:59:52 [notice] 26#26: exit
+2022/04/02 05:59:52 [notice] 25#25: exit
+2022/04/02 05:59:52 [notice] 24#24: gracefully shutting down
+2022/04/02 05:59:52 [notice] 24#24: exiting
+2022/04/02 05:59:52 [notice] 24#24: exit
+2022/04/02 05:59:52 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/02 05:59:52 [notice] 1#1: worker process 24 exited with code 0
+2022/04/02 05:59:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/02 05:59:52 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/02 05:59:52 [notice] 1#1: worker process 23 exited with code 0
+2022/04/02 05:59:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/02 05:59:52 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/02 05:59:52 [notice] 1#1: worker process 25 exited with code 0
+2022/04/02 05:59:52 [notice] 1#1: worker process 26 exited with code 0
+2022/04/02 05:59:52 [notice] 1#1: exit
+2022/04/01 18:44:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/01 18:44:50 [notice] 22#22: gracefully shutting down
+2022/04/01 18:44:50 [notice] 23#23: gracefully shutting down
+2022/04/01 18:44:50 [notice] 24#24: gracefully shutting down
+2022/04/01 18:44:50 [notice] 26#26: gracefully shutting down
+2022/04/01 18:44:50 [notice] 28#28: gracefully shutting down
+2022/04/01 18:44:50 [notice] 25#25: gracefully shutting down
+2022/04/01 18:44:50 [notice] 29#29: gracefully shutting down
+2022/04/01 18:44:50 [notice] 27#27: gracefully shutting down
+2022/04/01 18:44:50 [notice] 28#28: exiting
+2022/04/01 18:44:50 [notice] 29#29: exiting
+2022/04/01 18:44:50 [notice] 23#23: exiting
+2022/04/01 18:44:50 [notice] 23#23: exit
+2022/04/01 18:44:50 [notice] 28#28: exit
+2022/04/01 18:44:50 [notice] 24#24: exiting
+2022/04/01 18:44:50 [notice] 24#24: exit
+2022/04/01 18:44:50 [notice] 29#29: exit
+2022/04/01 18:44:50 [notice] 25#25: exiting
+2022/04/01 18:44:50 [notice] 25#25: exit
+2022/04/01 18:44:50 [notice] 22#22: exiting
+2022/04/01 18:44:50 [notice] 22#22: exit
+2022/04/01 18:44:50 [notice] 26#26: exiting
+2022/04/01 18:44:50 [notice] 27#27: exiting
+2022/04/01 18:44:50 [notice] 27#27: exit
+2022/04/01 18:44:50 [notice] 26#26: exit
+2022/04/01 18:44:51 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/01 18:44:51 [notice] 1#1: worker process 23 exited with code 0
+2022/04/01 18:44:51 [notice] 1#1: worker process 22 exited with code 0
+2022/04/01 18:44:51 [notice] 1#1: worker process 24 exited with code 0
+2022/04/01 18:44:51 [notice] 1#1: worker process 25 exited with code 0
+2022/04/01 18:44:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/01 18:44:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/01 18:44:51 [notice] 1#1: worker process 26 exited with code 0
+2022/04/01 18:44:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/01 18:44:51 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/04/01 18:44:51 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/04/01 18:44:51 [notice] 1#1: worker process 29 exited with code 0
+2022/04/01 18:44:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/01 18:44:51 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/04/01 18:44:51 [notice] 1#1: worker process 27 exited with code 0
+2022/04/01 18:44:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/01 18:44:51 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/04/01 18:44:51 [notice] 1#1: worker process 28 exited with code 0
+2022/04/01 18:44:51 [notice] 1#1: exit
+2022/04/01 18:45:47 [notice] 1#1: using the "epoll" event method
+2022/04/01 18:45:47 [notice] 1#1: nginx/1.21.4
+2022/04/01 18:45:47 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/04/01 18:45:47 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/01 18:45:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/01 18:45:47 [notice] 1#1: start worker processes
+2022/04/01 18:45:47 [notice] 1#1: start worker process 22
+2022/04/01 18:45:47 [notice] 1#1: start worker process 23
+2022/04/01 18:45:47 [notice] 1#1: start worker process 24
+2022/04/01 18:45:47 [notice] 1#1: start worker process 25
+2022/04/01 18:45:47 [notice] 1#1: start worker process 26
+2022/04/01 18:45:47 [notice] 1#1: start worker process 27
+2022/04/01 18:45:47 [notice] 1#1: start worker process 28
+2022/04/01 18:45:47 [notice] 1#1: start worker process 29
+2022/04/01 21:02:19 [notice] 1#1: using the "epoll" event method
+2022/04/01 21:02:19 [notice] 1#1: nginx/1.21.4
+2022/04/01 21:02:19 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/04/01 21:02:19 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/01 21:02:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/01 21:02:19 [notice] 1#1: start worker processes
+2022/04/01 21:02:19 [notice] 1#1: start worker process 22
+2022/04/01 21:02:19 [notice] 1#1: start worker process 23
+2022/04/01 21:02:19 [notice] 1#1: start worker process 24
+2022/04/01 21:02:19 [notice] 1#1: start worker process 25
+2022/04/01 21:02:19 [notice] 1#1: start worker process 26
+2022/04/01 21:02:19 [notice] 1#1: start worker process 27
+2022/04/01 21:02:19 [notice] 1#1: start worker process 28
+2022/04/01 21:02:19 [notice] 1#1: start worker process 29
+2022/04/01 21:15:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/01 21:15:17 [notice] 28#28: gracefully shutting down
+2022/04/01 21:15:17 [notice] 28#28: exiting
+2022/04/01 21:15:17 [notice] 28#28: exit
+2022/04/01 21:15:17 [notice] 25#25: gracefully shutting down
+2022/04/01 21:15:17 [notice] 25#25: exiting
+2022/04/01 21:15:17 [notice] 25#25: exit
+2022/04/01 21:15:17 [notice] 23#23: gracefully shutting down
+2022/04/01 21:15:17 [notice] 23#23: exiting
+2022/04/01 21:15:17 [notice] 23#23: exit
+2022/04/01 21:15:17 [notice] 26#26: gracefully shutting down
+2022/04/01 21:15:17 [notice] 26#26: exiting
+2022/04/01 21:15:17 [notice] 26#26: exit
+2022/04/01 21:15:17 [notice] 24#24: gracefully shutting down
+2022/04/01 21:15:17 [notice] 24#24: exiting
+2022/04/01 21:15:17 [notice] 24#24: exit
+2022/04/01 21:15:17 [notice] 22#22: gracefully shutting down
+2022/04/01 21:15:17 [notice] 22#22: exiting
+2022/04/01 21:15:17 [notice] 22#22: exit
+2022/04/01 21:15:17 [notice] 27#27: gracefully shutting down
+2022/04/01 21:15:17 [notice] 27#27: exiting
+2022/04/01 21:15:17 [notice] 27#27: exit
+2022/04/01 21:15:17 [notice] 29#29: gracefully shutting down
+2022/04/01 21:15:17 [notice] 29#29: exiting
+2022/04/01 21:15:17 [notice] 29#29: exit
+2022/04/01 21:15:17 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/01 21:15:17 [notice] 1#1: worker process 22 exited with code 0
+2022/04/01 21:15:17 [notice] 1#1: worker process 23 exited with code 0
+2022/04/01 21:15:17 [notice] 1#1: worker process 24 exited with code 0
+2022/04/01 21:15:17 [notice] 1#1: worker process 26 exited with code 0
+2022/04/01 21:15:17 [notice] 1#1: worker process 28 exited with code 0
+2022/04/01 21:15:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/01 21:15:17 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/04/01 21:15:17 [notice] 1#1: worker process 25 exited with code 0
+2022/04/01 21:15:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/01 21:15:17 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/04/01 21:15:17 [notice] 1#1: worker process 29 exited with code 0
+2022/04/01 21:15:17 [notice] 1#1: worker process 27 exited with code 0
+2022/04/01 21:15:17 [notice] 1#1: exit
+2022/04/01 21:20:05 [notice] 1#1: using the "epoll" event method
+2022/04/01 21:20:05 [notice] 1#1: nginx/1.21.4
+2022/04/01 21:20:05 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424)
+2022/04/01 21:20:05 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/01 21:20:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/01 21:20:05 [notice] 1#1: start worker processes
+2022/04/01 21:20:05 [notice] 1#1: start worker process 22
+2022/04/01 21:20:05 [notice] 1#1: start worker process 23
+2022/04/01 21:20:05 [notice] 1#1: start worker process 24
+2022/04/01 21:20:05 [notice] 1#1: start worker process 25
+2022/04/01 21:20:05 [notice] 1#1: start worker process 26
+2022/04/01 21:20:05 [notice] 1#1: start worker process 27
+2022/04/01 21:20:05 [notice] 1#1: start worker process 28
+2022/04/01 21:20:05 [notice] 1#1: start worker process 29
+2022/04/01 23:49:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/01 23:49:32 [notice] 23#23: gracefully shutting down
+2022/04/01 23:49:32 [notice] 24#24: gracefully shutting down
+2022/04/01 23:49:32 [notice] 22#22: gracefully shutting down
+2022/04/01 23:49:32 [notice] 25#25: gracefully shutting down
+2022/04/01 23:49:32 [notice] 23#23: exiting
+2022/04/01 23:49:32 [notice] 26#26: gracefully shutting down
+2022/04/01 23:49:32 [notice] 24#24: exiting
+2022/04/01 23:49:32 [notice] 22#22: exiting
+2022/04/01 23:49:32 [notice] 27#27: gracefully shutting down
+2022/04/01 23:49:32 [notice] 25#25: exiting
+2022/04/01 23:49:32 [notice] 28#28: gracefully shutting down
+2022/04/01 23:49:32 [notice] 26#26: exiting
+2022/04/01 23:49:32 [notice] 27#27: exiting
+2022/04/01 23:49:32 [notice] 28#28: exiting
+2022/04/01 23:49:32 [notice] 23#23: exit
+2022/04/01 23:49:32 [notice] 24#24: exit
+2022/04/01 23:49:32 [notice] 22#22: exit
+2022/04/01 23:49:32 [notice] 25#25: exit
+2022/04/01 23:49:32 [notice] 26#26: exit
+2022/04/01 23:49:32 [notice] 27#27: exit
+2022/04/01 23:49:32 [notice] 28#28: exit
+2022/04/01 23:49:32 [notice] 29#29: gracefully shutting down
+2022/04/01 23:49:32 [notice] 29#29: exiting
+2022/04/01 23:49:32 [notice] 29#29: exit
+2022/04/01 23:49:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/01 23:49:32 [notice] 1#1: worker process 22 exited with code 0
+2022/04/01 23:49:32 [notice] 1#1: worker process 23 exited with code 0
+2022/04/01 23:49:32 [notice] 1#1: worker process 25 exited with code 0
+2022/04/01 23:49:32 [notice] 1#1: worker process 26 exited with code 0
+2022/04/01 23:49:32 [notice] 1#1: worker process 29 exited with code 0
+2022/04/01 23:49:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/01 23:49:32 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/04/01 23:49:32 [notice] 1#1: worker process 27 exited with code 0
+2022/04/01 23:49:32 [notice] 1#1: worker process 28 exited with code 0
+2022/04/01 23:49:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/01 23:49:32 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/04/01 23:49:32 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/01 23:49:32 [notice] 1#1: worker process 24 exited with code 0
+2022/04/01 23:49:32 [notice] 1#1: exit
+2022/04/02 06:00:56 [notice] 1#1: using the "epoll" event method
+2022/04/02 06:00:56 [notice] 1#1: nginx/1.21.4
+2022/04/02 06:00:56 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/02 06:00:56 [notice] 1#1: OS: Linux 5.13.0-28-generic
+2022/04/02 06:00:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/02 06:00:56 [notice] 1#1: start worker processes
+2022/04/02 06:00:56 [notice] 1#1: start worker process 23
+2022/04/02 06:00:56 [notice] 1#1: start worker process 24
+2022/04/02 06:00:56 [notice] 1#1: start worker process 25
+2022/04/02 06:00:56 [notice] 1#1: start worker process 26
+2022/04/02 06:02:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/02 06:02:59 [notice] 24#24: gracefully shutting down
+2022/04/02 06:02:59 [notice] 24#24: exiting
+2022/04/02 06:02:59 [notice] 24#24: exit
+2022/04/02 06:02:59 [notice] 26#26: gracefully shutting down
+2022/04/02 06:02:59 [notice] 26#26: exiting
+2022/04/02 06:02:59 [notice] 26#26: exit
+2022/04/02 06:02:59 [notice] 23#23: gracefully shutting down
+2022/04/02 06:02:59 [notice] 25#25: gracefully shutting down
+2022/04/02 06:02:59 [notice] 23#23: exiting
+2022/04/02 06:02:59 [notice] 25#25: exiting
+2022/04/02 06:02:59 [notice] 23#23: exit
+2022/04/02 06:02:59 [notice] 25#25: exit
+2022/04/02 06:02:59 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/02 06:02:59 [notice] 1#1: worker process 24 exited with code 0
+2022/04/02 06:02:59 [notice] 1#1: worker process 25 exited with code 0
+2022/04/02 06:02:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/02 06:02:59 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/04/02 06:02:59 [notice] 1#1: worker process 26 exited with code 0
+2022/04/02 06:02:59 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/02 06:02:59 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/02 06:02:59 [notice] 1#1: worker process 23 exited with code 0
+2022/04/02 06:02:59 [notice] 1#1: exit
+2022/04/02 07:29:34 [notice] 1#1: using the "epoll" event method
+2022/04/02 07:29:34 [notice] 1#1: nginx/1.21.4
+2022/04/02 07:29:34 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/02 07:29:34 [notice] 1#1: OS: Linux 5.13.0-28-generic
+2022/04/02 07:29:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/02 07:29:34 [notice] 1#1: start worker processes
+2022/04/02 07:29:34 [notice] 1#1: start worker process 22
+2022/04/02 07:29:34 [notice] 1#1: start worker process 23
+2022/04/02 07:29:34 [notice] 1#1: start worker process 24
+2022/04/02 07:29:34 [notice] 1#1: start worker process 25
+2022/04/02 11:38:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/02 11:38:28 [notice] 22#22: gracefully shutting down
+2022/04/02 11:38:28 [notice] 24#24: gracefully shutting down
+2022/04/02 11:38:28 [notice] 25#25: gracefully shutting down
+2022/04/02 11:38:28 [notice] 23#23: gracefully shutting down
+2022/04/02 11:38:28 [notice] 25#25: exiting
+2022/04/02 11:38:28 [notice] 22#22: exiting
+2022/04/02 11:38:28 [notice] 25#25: exit
+2022/04/02 11:38:28 [notice] 22#22: exit
+2022/04/02 11:38:28 [notice] 24#24: exiting
+2022/04/02 11:38:28 [notice] 24#24: exit
+2022/04/02 11:38:28 [notice] 23#23: exiting
+2022/04/02 11:38:28 [notice] 23#23: exit
+2022/04/02 11:38:28 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/02 11:38:28 [notice] 1#1: worker process 25 exited with code 0
+2022/04/02 11:38:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/02 11:38:28 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/02 11:38:28 [notice] 1#1: worker process 24 exited with code 0
+2022/04/02 11:38:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/02 11:38:28 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/02 11:38:28 [notice] 1#1: worker process 23 exited with code 0
+2022/04/02 11:38:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/02 11:38:28 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/04/02 11:38:28 [notice] 1#1: worker process 22 exited with code 0
+2022/04/02 11:38:28 [notice] 1#1: exit
+2022/04/02 14:53:37 [notice] 1#1: using the "epoll" event method
+2022/04/02 14:53:37 [notice] 1#1: nginx/1.21.4
+2022/04/02 14:53:37 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/02 14:53:37 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/02 14:53:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/02 14:53:37 [notice] 1#1: start worker processes
+2022/04/02 14:53:37 [notice] 1#1: start worker process 22
+2022/04/02 14:53:37 [notice] 1#1: start worker process 23
+2022/04/02 14:53:37 [notice] 1#1: start worker process 24
+2022/04/02 14:53:37 [notice] 1#1: start worker process 25
+2022/04/02 14:53:37 [notice] 1#1: start worker process 26
+2022/04/02 14:53:37 [notice] 1#1: start worker process 27
+2022/04/02 14:53:37 [notice] 1#1: start worker process 28
+2022/04/02 14:53:37 [notice] 1#1: start worker process 29
+2022/04/02 20:50:38 [crit] 24#24: *317 stat() "/var/www/public/asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:50:38 [crit] 24#24: *317 stat() "/var/www/public/asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:50:38 [crit] 24#24: *318 stat() "/var/www/public/asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:50:38 [crit] 24#24: *318 stat() "/var/www/public/asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:51:05 [crit] 23#23: *307 stat() "/var/www/public/asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:51:05 [crit] 23#23: *307 stat() "/var/www/public/asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918326photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:51:05 [crit] 22#22: *325 stat() "/var/www/public/asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 20:51:05 [crit] 22#22: *325 stat() "/var/www/public/asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /asset/img/burgers/1648918375photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/burger/add?"
+2022/04/02 21:24:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/02 21:24:43 [notice] 24#24: gracefully shutting down
+2022/04/02 21:24:43 [notice] 22#22: gracefully shutting down
+2022/04/02 21:24:43 [notice] 23#23: gracefully shutting down
+2022/04/02 21:24:43 [notice] 26#26: gracefully shutting down
+2022/04/02 21:24:43 [notice] 25#25: gracefully shutting down
+2022/04/02 21:24:43 [notice] 28#28: gracefully shutting down
+2022/04/02 21:24:43 [notice] 27#27: gracefully shutting down
+2022/04/02 21:24:43 [notice] 29#29: gracefully shutting down
+2022/04/02 21:24:43 [notice] 24#24: exiting
+2022/04/02 21:24:43 [notice] 23#23: exiting
+2022/04/02 21:24:43 [notice] 25#25: exiting
+2022/04/02 21:24:43 [notice] 22#22: exiting
+2022/04/02 21:24:43 [notice] 26#26: exiting
+2022/04/02 21:24:43 [notice] 29#29: exiting
+2022/04/02 21:24:43 [notice] 27#27: exiting
+2022/04/02 21:24:43 [notice] 28#28: exiting
+2022/04/02 21:24:43 [notice] 24#24: exit
+2022/04/02 21:24:43 [notice] 23#23: exit
+2022/04/02 21:24:43 [notice] 22#22: exit
+2022/04/02 21:24:43 [notice] 25#25: exit
+2022/04/02 21:24:43 [notice] 26#26: exit
+2022/04/02 21:24:43 [notice] 29#29: exit
+2022/04/02 21:24:43 [notice] 27#27: exit
+2022/04/02 21:24:43 [notice] 28#28: exit
+2022/04/02 21:24:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/04/02 21:24:44 [notice] 1#1: worker process 22 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 23 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 24 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 25 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 26 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 27 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 28 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: worker process 29 exited with code 0
+2022/04/02 21:24:44 [notice] 1#1: exit
+2022/04/03 19:05:13 [notice] 1#1: using the "epoll" event method
+2022/04/03 19:05:13 [notice] 1#1: nginx/1.21.4
+2022/04/03 19:05:13 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/03 19:05:13 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/03 19:05:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/03 19:05:13 [notice] 1#1: start worker processes
+2022/04/03 19:05:13 [notice] 1#1: start worker process 22
+2022/04/03 19:05:13 [notice] 1#1: start worker process 23
+2022/04/03 19:05:13 [notice] 1#1: start worker process 24
+2022/04/03 19:05:13 [notice] 1#1: start worker process 25
+2022/04/03 19:05:13 [notice] 1#1: start worker process 26
+2022/04/03 19:05:13 [notice] 1#1: start worker process 27
+2022/04/03 19:05:13 [notice] 1#1: start worker process 28
+2022/04/03 19:05:13 [notice] 1#1: start worker process 29
+2022/04/03 22:07:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/03 22:07:23 [notice] 22#22: gracefully shutting down
+2022/04/03 22:07:23 [notice] 23#23: gracefully shutting down
+2022/04/03 22:07:23 [notice] 24#24: gracefully shutting down
+2022/04/03 22:07:23 [notice] 25#25: gracefully shutting down
+2022/04/03 22:07:23 [notice] 26#26: gracefully shutting down
+2022/04/03 22:07:23 [notice] 27#27: gracefully shutting down
+2022/04/03 22:07:23 [notice] 28#28: gracefully shutting down
+2022/04/03 22:07:23 [notice] 29#29: gracefully shutting down
+2022/04/03 22:07:23 [notice] 24#24: exiting
+2022/04/03 22:07:23 [notice] 25#25: exiting
+2022/04/03 22:07:23 [notice] 26#26: exiting
+2022/04/03 22:07:23 [notice] 29#29: exiting
+2022/04/03 22:07:23 [notice] 28#28: exiting
+2022/04/03 22:07:23 [notice] 25#25: exit
+2022/04/03 22:07:23 [notice] 29#29: exit
+2022/04/03 22:07:23 [notice] 24#24: exit
+2022/04/03 22:07:23 [notice] 28#28: exit
+2022/04/03 22:07:23 [notice] 26#26: exit
+2022/04/03 22:07:23 [notice] 23#23: exiting
+2022/04/03 22:07:23 [notice] 23#23: exit
+2022/04/03 22:07:23 [notice] 22#22: exiting
+2022/04/03 22:07:23 [notice] 22#22: exit
+2022/04/03 22:07:23 [notice] 27#27: exiting
+2022/04/03 22:07:23 [notice] 27#27: exit
+2022/04/03 22:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/03 22:07:24 [notice] 1#1: worker process 22 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 24 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 25 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 27 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 29 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/03 22:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/04/03 22:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/04/03 22:07:24 [notice] 1#1: worker process 26 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: worker process 28 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/03 22:07:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/03 22:07:24 [notice] 1#1: worker process 23 exited with code 0
+2022/04/03 22:07:24 [notice] 1#1: exit
+2022/04/08 11:50:53 [notice] 1#1: using the "epoll" event method
+2022/04/08 11:50:53 [notice] 1#1: nginx/1.21.4
+2022/04/08 11:50:53 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/08 11:50:53 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/08 11:50:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/08 11:50:53 [notice] 1#1: start worker processes
+2022/04/08 11:50:53 [notice] 1#1: start worker process 22
+2022/04/08 11:50:53 [notice] 1#1: start worker process 23
+2022/04/08 11:50:53 [notice] 1#1: start worker process 24
+2022/04/08 11:50:53 [notice] 1#1: start worker process 25
+2022/04/08 11:50:53 [notice] 1#1: start worker process 26
+2022/04/08 11:50:53 [notice] 1#1: start worker process 27
+2022/04/08 11:50:53 [notice] 1#1: start worker process 28
+2022/04/08 11:50:53 [notice] 1#1: start worker process 29
+2022/04/08 12:36:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/08 12:36:22 [notice] 22#22: gracefully shutting down
+2022/04/08 12:36:22 [notice] 23#23: gracefully shutting down
+2022/04/08 12:36:22 [notice] 24#24: gracefully shutting down
+2022/04/08 12:36:22 [notice] 25#25: gracefully shutting down
+2022/04/08 12:36:22 [notice] 26#26: gracefully shutting down
+2022/04/08 12:36:22 [notice] 27#27: gracefully shutting down
+2022/04/08 12:36:22 [notice] 22#22: exiting
+2022/04/08 12:36:22 [notice] 23#23: exiting
+2022/04/08 12:36:22 [notice] 24#24: exiting
+2022/04/08 12:36:22 [notice] 25#25: exiting
+2022/04/08 12:36:22 [notice] 26#26: exiting
+2022/04/08 12:36:22 [notice] 27#27: exiting
+2022/04/08 12:36:22 [notice] 22#22: exit
+2022/04/08 12:36:22 [notice] 24#24: exit
+2022/04/08 12:36:22 [notice] 23#23: exit
+2022/04/08 12:36:22 [notice] 26#26: exit
+2022/04/08 12:36:22 [notice] 25#25: exit
+2022/04/08 12:36:22 [notice] 27#27: exit
+2022/04/08 12:36:22 [notice] 29#29: gracefully shutting down
+2022/04/08 12:36:22 [notice] 29#29: exiting
+2022/04/08 12:36:22 [notice] 28#28: gracefully shutting down
+2022/04/08 12:36:22 [notice] 28#28: exiting
+2022/04/08 12:36:22 [notice] 29#29: exit
+2022/04/08 12:36:22 [notice] 28#28: exit
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/08 12:36:22 [notice] 1#1: worker process 24 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: worker process 23 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/04/08 12:36:22 [notice] 1#1: worker process 25 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: worker process 27 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/04/08 12:36:22 [notice] 1#1: worker process 28 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: signal 29 (SIGIO) received
+2022/04/08 12:36:22 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/04/08 12:36:22 [notice] 1#1: worker process 22 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: worker process 26 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: worker process 29 exited with code 0
+2022/04/08 12:36:22 [notice] 1#1: exit
+2022/04/08 14:38:25 [notice] 1#1: using the "epoll" event method
+2022/04/08 14:38:25 [notice] 1#1: nginx/1.21.4
+2022/04/08 14:38:25 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/08 14:38:25 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/08 14:38:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/08 14:38:25 [notice] 1#1: start worker processes
+2022/04/08 14:38:25 [notice] 1#1: start worker process 22
+2022/04/08 14:38:25 [notice] 1#1: start worker process 23
+2022/04/08 14:38:25 [notice] 1#1: start worker process 24
+2022/04/08 14:38:25 [notice] 1#1: start worker process 25
+2022/04/08 14:38:25 [notice] 1#1: start worker process 26
+2022/04/08 14:38:25 [notice] 1#1: start worker process 27
+2022/04/08 14:38:25 [notice] 1#1: start worker process 28
+2022/04/08 14:38:25 [notice] 1#1: start worker process 29
+2022/04/08 15:24:33 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:33 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:33 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:33 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:59 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:59 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:59 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:24:59 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:09 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:09 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:09 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:09 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:46 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:46 [crit] 22#22: *73 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:46 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:25:46 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:29 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:29 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:29 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:29 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:32 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:32 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:32 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:26:32 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:18 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:18 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:18 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:18 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 22#22: *131 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 22#22: *131 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 23#23: *135 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:43 [crit] 23#23: *135 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *90 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *135 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *135 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 22#22: *110 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:27:44 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:22 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:22 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:22 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:22 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:39 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:39 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:39 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:28:39 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:33 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:33 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:33 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:33 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:42 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:42 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:42 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:42 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:50 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:50 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:50 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:29:50 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:00 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:00 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:00 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:00 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:07 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:07 [crit] 23#23: *70 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:07 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:07 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:18 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:18 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:18 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:18 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:48 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:48 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:48 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:48 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:50 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:50 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:50 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:30:50 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:17 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:17 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:17 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:17 [crit] 22#22: *176 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:18 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:18 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:18 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:18 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *174 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:19 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:55 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:55 [crit] 22#22: *175 stat() "/var/www/public/storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431307photo_2022-01-27_21-37-56.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:55 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:31:55 [crit] 23#23: *146 stat() "/var/www/public/storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg" failed (13: Permission denied), client: 172.19.0.1, server: , request: "GET /storage/img/articles/1649431473photo_2022-01-27_21-38-57.jpg HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/index"
+2022/04/08 15:51:36 [error] 22#22: *244 client intended to send too large body: 1454938 bytes, client: 172.19.0.1, server: , request: "POST /admin/articles/add HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/add"
+2022/04/08 15:51:43 [error] 23#23: *243 client intended to send too large body: 1454938 bytes, client: 172.19.0.1, server: , request: "POST /admin/articles/add HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/admin/articles/add"
+2022/04/08 18:09:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/04/08 18:09:33 [notice] 22#22: gracefully shutting down
+2022/04/08 18:09:33 [notice] 25#25: gracefully shutting down
+2022/04/08 18:09:33 [notice] 26#26: gracefully shutting down
+2022/04/08 18:09:33 [notice] 27#27: gracefully shutting down
+2022/04/08 18:09:33 [notice] 28#28: gracefully shutting down
+2022/04/08 18:09:33 [notice] 29#29: gracefully shutting down
+2022/04/08 18:09:33 [notice] 22#22: exiting
+2022/04/08 18:09:33 [notice] 25#25: exiting
+2022/04/08 18:09:33 [notice] 26#26: exiting
+2022/04/08 18:09:33 [notice] 27#27: exiting
+2022/04/08 18:09:33 [notice] 28#28: exiting
+2022/04/08 18:09:33 [notice] 29#29: exiting
+2022/04/08 18:09:33 [notice] 23#23: gracefully shutting down
+2022/04/08 18:09:33 [notice] 23#23: exiting
+2022/04/08 18:09:33 [notice] 24#24: gracefully shutting down
+2022/04/08 18:09:33 [notice] 24#24: exiting
+2022/04/08 18:09:33 [notice] 23#23: exit
+2022/04/08 18:09:33 [notice] 25#25: exit
+2022/04/08 18:09:33 [notice] 22#22: exit
+2022/04/08 18:09:33 [notice] 24#24: exit
+2022/04/08 18:09:33 [notice] 29#29: exit
+2022/04/08 18:09:33 [notice] 26#26: exit
+2022/04/08 18:09:33 [notice] 27#27: exit
+2022/04/08 18:09:33 [notice] 28#28: exit
+2022/04/08 18:09:35 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/04/08 18:09:35 [notice] 1#1: worker process 22 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 23 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 24 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 25 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 26 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 27 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 28 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: worker process 29 exited with code 0
+2022/04/08 18:09:35 [notice] 1#1: exit
+2022/04/08 18:12:06 [notice] 1#1: using the "epoll" event method
+2022/04/08 18:12:06 [notice] 1#1: nginx/1.21.4
+2022/04/08 18:12:06 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2022/04/08 18:12:06 [notice] 1#1: OS: Linux 5.13.0-39-generic
+2022/04/08 18:12:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/04/08 18:12:06 [notice] 1#1: start worker processes
+2022/04/08 18:12:06 [notice] 1#1: start worker process 23
+2022/04/08 18:12:06 [notice] 1#1: start worker process 24
+2022/04/08 18:12:06 [notice] 1#1: start worker process 25
+2022/04/08 18:12:06 [notice] 1#1: start worker process 26
+2022/04/08 18:12:06 [notice] 1#1: start worker process 27
+2022/04/08 18:12:06 [notice] 1#1: start worker process 28
+2022/04/08 18:12:06 [notice] 1#1: start worker process 29
+2022/04/08 18:12:06 [notice] 1#1: start worker process 30

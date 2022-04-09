@@ -13,16 +13,37 @@
         <h1 class="delivery-title-item">
             Доставка
         </h1>
-    </div>
-        <p class="delivery-content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt dicta dignissimos incidunt iste, reprehenderit suscipit unde? At beatae debitis dolorum ex modi nam, nihil, perspiciatis quae quibusdam rerum sapiente suscipit! Ab ad adipisci architecto asperiores commodi consequatur earum eius ex facere fuga illum incidunt iste iure laboriosam molestiae mollitia nemo neque nobis odio optio quas, qui quibusdam quidem quisquam repudiandae sequi similique tempora tempore temporibus ullam ut vero voluptas voluptatum. Aspernatur fuga libero placeat saepe sapiente? Cum laborum libero magnam optio ut! Aliquam atque consequuntur ducimus est fugiat harum in iste laboriosam laudantium molestiae neque odio officia omnis, praesentium quae quas quos, ullam velit vero voluptas! Adipisci aliquam aliquid amet aut, commodi consequuntur, corporis deleniti dolore ea eligendi eveniet laboriosam maiores molestiae nisi numquam officiis, placeat quae quisquam reprehenderit soluta tempora temporibus vero voluptatem? Doloremque dolores eos esse, nam officia perferendis perspiciatis tempore? A culpa eaque fugiat nam rerum?
-        </p>
-    <p class="delivery-content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt dicta dignissimos incidunt iste, reprehenderit suscipit unde? At beatae debitis dolorum ex modi nam, nihil, perspiciatis quae quibusdam rerum sapiente suscipit! Ab ad adipisci architecto asperiores commodi consequatur earum eius ex facere fuga illum incidunt iste iure laboriosam molestiae mollitia nemo neque nobis odio optio quas, qui quibusdam quidem quisquam repudiandae sequi similique tempora tempore temporibus ullam ut vero voluptas voluptatum. Aspernatur fuga libero placeat saepe sapiente? Cum laborum libero magnam optio ut! Aliquam atque consequuntur ducimus est fugiat harum in iste laboriosam laudantium molestiae neque odio officia omnis, praesentium quae quas quos, ullam velit vero voluptas! Adipisci aliquam aliquid amet aut, commodi consequuntur, corporis deleniti dolore ea eligendi eveniet laboriosam maiores molestiae nisi numquam officiis, placeat quae quisquam reprehenderit soluta tempora temporibus vero voluptatem? Doloremque dolores eos esse, nam officia perferendis perspiciatis tempore? A culpa eaque fugiat nam rerum?
-    </p>
-    <p class="delivery-content">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt dicta dignissimos incidunt iste, reprehenderit suscipit unde? At beatae debitis dolorum ex modi nam, nihil, perspiciatis quae quibusdam rerum sapiente suscipit! Ab ad adipisci architecto asperiores commodi consequatur earum eius ex facere fuga illum incidunt iste iure laboriosam molestiae mollitia nemo neque nobis odio optio quas, qui quibusdam quidem quisquam repudiandae sequi similique tempora tempore temporibus ullam ut vero voluptas voluptatum. Aspernatur fuga libero placeat saepe sapiente? Cum laborum libero magnam optio ut! Aliquam atque consequuntur ducimus est fugiat harum in iste laboriosam laudantium molestiae neque odio officia omnis, praesentium quae quas quos, ullam velit vero voluptas! Adipisci aliquam aliquid amet aut, commodi consequuntur, corporis deleniti dolore ea eligendi eveniet laboriosam maiores molestiae nisi numquam officiis, placeat quae quisquam reprehenderit soluta tempora temporibus vero voluptatem? Doloremque dolores eos esse, nam officia perferendis perspiciatis tempore? A culpa eaque fugiat nam rerum?
-    </p>
+    </div>.
+    <div class="row text-center">
+        <div class="col-6 px-4 py-4">
+           <h2> Доставка из Burgizza<br>Мы доставляем то, что вы любите</h2>
+            <h4>
+     Burgizza всегда стремится к тому, чтобы соответствовать ожиданиям своих посетителей. Мы очень воодушевлены возможностью предоставить новый, удобный и доступный сервис – BurgizzaДоставка, который позволит нашим посетителям наслаждаться своими любимыми продуктами, не выходя из дома.
+    Доставка  в Челябинске доступна пользователям официального сайта и в приложениях Партнеров Яндекс.Еда и Delivery Club.
+    Сервис по доставке является идеальным продолжением услуг, которые мы предоставляем нашим посетителям. Мы нацелены на расширение географии работы в Москве, Санкт-Петербурге, Нижнем Новгороде, Ростове-на-Дону, Екатеринбурге, Новосибирске, Самаре, Казани, Уфе, Воронеже, Тюмени,  Перми, Красноярске, Ижевске, и других городах, и будем пополнять список.
+            </h4></div>
+        <div class="col-6 px-4 py-4">
+            <h3>
+        <div>Время доставки от 30 мин.
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                    <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                    <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                </svg>
+        </div>
+        <br>
+                <div> <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+                        <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+                        <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+                        <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+                    </svg> Стоимость доставки 0-209 руб. </div>
+        <br>
+                <div>Минимальный заказ от 0 руб. <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                        <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                    </svg></div>
+            </h3>
+        </div>
     </div>
 </div>
 @endsection

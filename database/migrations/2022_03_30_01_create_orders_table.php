@@ -16,9 +16,9 @@ return new class extends Migration
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users')->cascadeOnUpdate()->cascadeOnDelete();
-            $table->float('final_price');
-            $table->text('address');
-            $table->text('phone');
+            $table->float('final_price')->nullable();
+            $table->text('address')->nullable();
+            $table->text('phone')->nullable();
             $table->date('date');
             $table->foreignId('status_id')->constrained('order_statuses')->cascadeOnUpdate()->cascadeOnDelete();
         });

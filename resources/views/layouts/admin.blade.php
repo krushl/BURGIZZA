@@ -11,6 +11,7 @@
     <!--Styles -->
     @stack('css')
     <link rel="stylesheet" href="{{ asset('asset/css/bootstrap.min.css') }}">
+    @stack('script-defer')
 </head>
 <body class="font-sans antialiased">
 <header>

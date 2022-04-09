@@ -3,18 +3,18 @@
 namespace App\Http\Controllers;
 
 use App\Models\AddIngredients;
+use App\Models\Article;
 use App\Models\Burger;
 use App\Models\Category;
-use App\Models\Image;
-use App\Models\Order;
 use App\Models\OrderStatus;
+use DateTime;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Storage;
 
 class AdminController extends Controller
 {
-    protected const UPLOAD_PATH = 'public/img/burgers';
+    protected const UPLOAD_PATH_BURGERS = 'public/img/burgers';
+    protected const UPLOAD_PATH_ARTICLES = 'public/img/articles';
 
     public function adminIndex()
     {
@@ -36,7 +36,7 @@ class AdminController extends Controller
             $file = $request->file('burgerPic');
             $filename = time() . $file->getClientOriginalName();
 
-            Storage::putFileAs(self::UPLOAD_PATH, $file, $filename);
+            Storage::putFileAs(self::UPLOAD_PATH_BURGERS, $file, $filename);
             $burgerImage = $filename;
         }
 
@@ -72,10 +72,10 @@ class AdminController extends Controller
                 $file = $request->file('burgerPic');
                 $filename = time() . $file->getClientOriginalName();
 
-                $path = self::UPLOAD_PATH . $burger->image;
+                $path = self::UPLOAD_PATH_BURGERS . $burger->image;
                 Storage::delete($path);
 
-                Storage::putFileAs(self::UPLOAD_PATH, $file, $filename);
+                Storage::putFileAs(self::UPLOAD_PATH_BURGERS, $file, $filename);
                 $burger->image = $filename;
 
                 if (!$burger->save()) {
@@ -90,7 +90,7 @@ class AdminController extends Controller
             $burger->price = $request->price;
             $burger->composition = $composition ?? $burger->composition;
             $burger->category_id = $request->category;
-            $burger->image_id = $img->id ?? $burger->image_id;
+            $burger->image = $filename ?? $burger->image;
 
             if (!$burger->save()) {
                 return abort(400, 'Что то пошло не так');
@@ -235,6 +235,94 @@ class AdminController extends Controller
 
         return ["result"=>true, "message"=>'Успешно удаленно'];
     }
+
+    public function articlesIndex()
+    {
+        $articles = Article::all();
+
+        return view('admin.article.index',compact('articles'));
+    }
+
+    public function articlesAddForm()
+    {
+        return view('admin.article.add');
+    }
+
+    public function articlesEditForm(Request $request)
+    {
+        $article = Article::find($request->articleId);
+
+
+        return view('admin.article.edit',compact('article'));
+    }
+
+    public function articlesAdd(Request $request)
+    {
+        if ($request->file('articleImage')) {
+            $file = $request->file('articleImage');
+            $filename = time() . $file->getClientOriginalName();
+
+            Storage::putFileAs(self::UPLOAD_PATH_ARTICLES, $file, $filename);
+
+        }
+
+
+        $article = Article::create([
+            'title' => $request->articleTitle,
+            'content' => $request->articleContent,
+            'image' => $filename ?? 'default.jpg',
+            'date' => (new DateTime())->format('d-m-Y'),
+        ]);
+
+        if (!$article->save()) {
+            return abort(400, 'Что то пошло не так');
+        }
+
+        return redirect()->route('admin.articles.index');
+    }
+
+    public function articlesEdit(Request $request)
+    {
+        $article = Article::find($request->articleId);
+
+        if ($request->file('articleImage')) {
+            $file = $request->file('articleImage');
+            $filename = time() . $file->getClientOriginalName();
+
+            $path = self::UPLOAD_PATH_ARTICLES . $article->image;
+            Storage::delete($path);
+
+            Storage::putFileAs(self::UPLOAD_PATH_ARTICLES, $file, $filename);
+        }
+
+
+        if ($article) {
+            $article->title = $request->articleTitle;
+            $article->content = $request->articleContent;
+            $article->image = $filename ?? $article->image;
+
+            if (!$article->save()) {
+                return abort(400, 'Что то пошло не так');
+            }
+        }
+
+        return redirect()->back();
+    }
+
+    public function articlesDestroy(Request $request)
+    {
+        $article = Article::find($request->articleId);
+
+        if(!$article->delete())
+        {
+            return ["result"=>false,"message"=>'Произошла ошибка при удалении'];
+        }
+
+        return ["result"=>true, "message"=>'Успешно удаленно'];
+    }
+
+
+
 
 
     public function ingredientsIndex()

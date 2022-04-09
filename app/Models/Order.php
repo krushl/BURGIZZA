@@ -14,7 +14,9 @@ class Order extends Model
       'user_id',
       'final_price',
       'address',
+       'phone',
       'status_id',
+        'date',
     ];
 
     public function user()
@@ -28,9 +30,9 @@ class Order extends Model
         return $this->hasOne(OrderStatus::class);
     }
 
-    public function burger()
+    public function burgers()
     {
-        return $this->hasOne(OrderBurger::class, 'order_id','id');
+        return $this->hasMany(OrderBurger::class, 'order_id','id');
     }
 
 }
