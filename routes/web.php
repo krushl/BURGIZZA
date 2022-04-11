@@ -25,7 +25,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/menu',[MainController::class,'menu'])->name('menu');
-Route::get('/article')->name('article');
+Route::get('/article',[MainController::class,'articles'])->name('article');
 
 Route::get('/delivery', function () {
     return view('delivery.index');
@@ -43,9 +43,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
     Route::get('/profile', [ProfileController::class, 'profile'])->name('profile');
     Route::post('/profile/change', [ProfileController::class, 'changeOptional'])->name('changeOptional');
-    Route::get('/basket')->name('basket');
+    Route::get('/basket',[BasketController::class, 'basket'])->name('basket');
 
     Route::post('/basket/add', [BasketController::class, 'basketAdd'])->name('basketAdd');
+    Route::post('/basket/destroy', [BasketController::class, 'basketDestroy'])->name('basketDestroy');
 });
 
 Route::prefix('admin')->name('admin.')->group(function () {

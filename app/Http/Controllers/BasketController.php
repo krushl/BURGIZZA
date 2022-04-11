@@ -122,7 +122,7 @@ class BasketController extends Controller
         return redirect()->back();
     }
 
-    public function basketRemove(Request $request)
+    public function basketDestroy(Request $request)
     {
         $orderId = session('orderId');
 
@@ -139,5 +139,12 @@ class BasketController extends Controller
         }
 
         return redirect()->back();
+    }
+
+    public function basket(Request $request)
+    {
+        $orderBurgers = OrderBurger::where('order_id', session('orderId'))->with('burger','order')->get();
+
+        return view('basket.index', compact('orderBurgers'));
     }
 }

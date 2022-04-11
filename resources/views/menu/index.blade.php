@@ -50,10 +50,11 @@
                                         @csrf
                                     <div class="px-2 py-2">
                                             <hr>
-                                            <h3>Особые пожелания:</h3>
-                                            <div class="modal-special_requests"></div>
-                                            <div class="modal-burgerId"></div>
-                                            <hr>
+{{--                                            <h3>Особые пожелания:</h3>--}}
+{{--                                            <div class="modal-special_requests"></div>--}}
+{{--
+{{--                                            <hr>--}}
+                                        <div class="modal-burgerId"></div>
                                     </div>
                                     <h3 class="modal-price">
 
