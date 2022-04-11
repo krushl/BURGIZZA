@@ -16,10 +16,9 @@
                 <th scope="col">#</th>
                 <th scope="col">Название</th>
                 <th scope="col">Картинка</th>
-                <th scope="col">Категория</th>
                 <th scope="col">Количество</th>
                 <th scope="col">Цена</th>
-                <th scope="col">Действие</th>
+                <th scope="col">Итого</th>
             </tr>
             </thead>
             <tbody>
