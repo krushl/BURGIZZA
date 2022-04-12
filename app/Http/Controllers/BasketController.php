@@ -32,11 +32,12 @@ class BasketController extends Controller
         }
 
 
+       if($order->burgers->contains('burger_id',$request->burgerId))
+       {
 
-
-        if ($orderBurgers = OrderBurger::where(['burger_id' => $request->burgerId, 'order_id' => $orderId])->first()) {
-            $orderBurgers->count += (int)$request->count;
-            $orderBurgers->update();
+           $count = $order->burgers()->where('burger_id',$request->burgerId)->first()->count;
+           $count+=$request->count;
+           OrderBurger::where(['burger_id'=>$request->burgerId,'order_id'=>$order->id])->update(['count'=>$count]);
 
         } else {
             $orderBurgers = OrderBurger::create(
@@ -77,7 +78,7 @@ class BasketController extends Controller
 
     public function basket(Request $request)
     {
-        $orderBurgers = OrderBurger::where('order_id', session('orderId'))->with('burger')->get();
+        $orderBurgers = OrderBurger::where('order_id', session('orderId'))->with('burger')->get()->sortBy('burger_id');
 
         return view('basket.index', compact('orderBurgers'));
     }
