@@ -15,7 +15,7 @@ div.home-container {
     height: 100%;
     width: 100%;
     /*background: linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url('../img/backgrounds/bg-burger.jpg');*/
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('../img/backgrounds/bg-burger.jpg');
+    background: url('../img/backgrounds/bg-burger.jpg');
     background-size: cover;
 }
 a.home-button {

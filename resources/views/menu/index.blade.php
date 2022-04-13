@@ -95,7 +95,7 @@
     <script type="text/javascript">
         VanillaTilt.init(document.querySelectorAll('.box'),
             {
-                max:25,
+                max:5,
                 speed:400
             });
         $('.buy').click(function () {

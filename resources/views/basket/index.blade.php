@@ -2,46 +2,50 @@
 
 @section('title','basket')
 @push('css')
-    <link rel="stylesheet" href="{{ asset('asset/css/profile.css') }}">
+    <link rel="stylesheet" href="{{ asset('asset/css/basket.css') }}">
 @endpush
 
 @section('meta')
     <meta name="csrf-token" content="{{ csrf_token() }}">
 @endsection
 @section('content')
-    <form method="post">
-        <table class="table table-responsive">
+
+        <div class="table-responsive-sm">
+            <form method="post" action="{{""}}">
+                @csrf
+        <table class="table table-sm">
             <thead>
             <tr>
-                <th scope="col">#</th>
+                <th scope="col"></th>
                 <th scope="col">Название</th>
                 <th scope="col">Картинка</th>
-                <th scope="col">Количество</th>
                 <th scope="col">Цена</th>
                 <th scope="col">Итого</th>
+                <th scope="col"></th>
             </tr>
             </thead>
             <tbody>
             @forelse($orderBurgers as $order)
                 <tr>
-                    <th scope="row">{{ $order->order->id }}</th>
+                    <th scope="row" width="1%">
+                        <button name="minus" class="btn btn-warning minus m-2 number-minus" type="button"
+                                            onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">
+                            -
+                        </button>
+                        <input type="number" min="0" name="quantity" class="form-control count quantity" value="{{$order->count}}"
+                               readonly>
+                        <button class="btn btn-warning minus m-2 number-plus" type="button"
+                                onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">
+                            +
+                        </button></th>
                     <td>{{$order->burger->name}}</td>
                     <td><img src="{{asset('/storage/img/burgers/'.trim($order->burger->image))}}"
                              class="img-thumbnail" alt="{{$order->burger->name}}" width="200" height="300"></td>
-                    <td>
-                        <button name="minus" class="number-minus" type="button"
-                                onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">
-                            -
-                        </button>
-                        <input type="number" min="0" name="quantity" class="quantity" value="{{$order->count}}"
-                               readonly>
-                        <button class="number-plus" type="button"
-                                onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">
-                            +
-                        </button>
-                    </td>
                     <td class="priceK">{{$order->burger->price}} ₽</td>
                     <td class="total-price">0 ₽</td>
+                    <td class=""><button type='button' class="btn btn-danger delete" data-name="{{$order->burger->name}}" data-burgerId="{{ $order->burger->id }}">
+                            &#128465;
+                        </button></td>
                 </tr>
             @empty
                 <tr>
@@ -50,27 +54,29 @@
             @endforelse
             </tbody>
         </table>
+
         <div class="">Итого к оплате: <br><br>
             <div id="order_cost"></div>
         </div>
-        </div>
+
 
     </form>
+</div>
 @endsection
 @push('script')
     <script>
 
-        {{--$(".delete").on('click', function () {--}}
-        {{--    if (confirm(`Вы действительно хотите удалить ${this.dataset.name}?`)) {--}}
-        {{--        $.post({--}}
-        {{--            url: "{{route('basketDestroy')}}",--}}
-        {{--            data: {'_token': $('meta[name="csrf-token"]').attr('content'), 'burgerId': this.dataset.burgerid}--}}
-        {{--        }).done(function (data) {--}}
-        {{--            alert(data.message);--}}
-        {{--            location.reload();--}}
-        {{--        });--}}
-        {{--    }--}}
-        {{--})--}}
+        $(".delete").on('click', function () {
+            if (confirm(`Вы действительно хотите удалить ${this.dataset.name}?`)) {
+                $.post({
+                    url: "{{route("basketDestroy")}}",
+                    data: {'_token': $('meta[name="csrf-token"]').attr('content'), 'burgerId': this.dataset.burgerid}
+                }).done(function (data) {
+                    alert(data.message);
+                    location.reload();
+                });
+            }
+        })
         $(document).ready(function () {
             $('.number-plus').click(function (e) {
                 e.preventDefault();

@@ -19,7 +19,7 @@ class BasketController extends Controller
             $order = Order::create(
                 [
                     'user_id' => Auth::user()->id,
-                    'date' => (new DateTime())->format('d-m-Y'),
+                    'date' => '2022-09-04',
                     'status_id' => 3,
                     'final_price' => 3,
                     'phone' => 3,
@@ -27,9 +27,9 @@ class BasketController extends Controller
                 ],
             );
             session(['orderId' => $order->id]);
-        } else {
-            $order = Order::find($orderId);
         }
+            $order = Order::find($orderId);
+
 
 
        if($order->burgers->contains('burger_id',$request->burgerId))
@@ -66,14 +66,8 @@ class BasketController extends Controller
         }
         $order = Order::find($orderId);
 
-        $orderBurgers = OrderBurger::where('burger_id', $request->burgerId)->first();
-
-        if(!$orderBurgers->delete())
-        {
-            return abort(400, 'Bad request');
-        }
-
-        return redirect()->back();
+            $order->burgers()->where('burger_id',$request->burgerId)->delete();
+        return ['result'=>true,'message'=>'Успешно удалено'];
     }
 
     public function basket(Request $request)
