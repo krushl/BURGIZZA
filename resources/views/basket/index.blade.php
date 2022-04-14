@@ -44,9 +44,11 @@
                              class="img-thumbnail" alt="{{$order->burger->name}}" width="200" height="300"></td>
                     <td class="priceK">{{$order->burger->price}} ₽</td>
                     <td class="total-price">0 ₽</td>
-                    <td class=""><button type='button' class="btn btn-danger delete" data-name="{{$order->burger->name}}" data-burgerId="{{ $order->burger->id }}">
+                    <td class="">
+                        <button type='button' class="btn btn-danger delete" data-name="{{$order->burger->name}}" data-burgerId="{{ $order->burger->id }}">
                             &#128465;
-                        </button></td>
+                        </button>
+                    </td>
                 </tr>
             @empty
                 <tr>
@@ -74,19 +76,14 @@
                 </div>
                 <div class="col-3 total-cost ">Итого к оплате: <br><br>
                     <div id="order_cost"></div>
-
                 </div>
             </div>
         </div>
-
-
-
     </form>
 </div>
 @endsection
 @push('script')
     <script>
-
         $(".delete").on('click', function () {
             if (confirm(`Вы действительно хотите удалить ${this.dataset.name}?`)) {
                 $.post({
@@ -99,33 +96,6 @@
             }
         })
         $(document).ready(function () {
-            //
-            // $('#userAddress').on('input change',function (){
-            //     if($('#userAddress').val() !== ''){
-            //         $('.makeOrder').attr('disabled',false);
-            //     } else {
-            //         $('.makeOrder').attr('disabled',true);
-            //     }
-            // })
-            //
-            // $('#userPhone').on('input change',function (){
-            //     if($('#userPhone').val() !== ''){
-            //         $('.makeOrder').attr('disabled',false);
-            //     } else {
-            //         $('.makeOrder').attr('disabled',true);
-            //     }
-            // })
-            //
-            //
-            // $('#userName').on('input change',function (){
-            //     if($('#userName').val() !== ''){
-            //         $('.makeOrder').attr('disabled',false);
-            //     } else {
-            //         $('.makeOrder').attr('disabled',true);
-            //     }
-            // })
-
-
             $('.number-plus').click(function (e) {
                 e.preventDefault();
                 $(this).siblings('.quantity').val(function (i, val) {

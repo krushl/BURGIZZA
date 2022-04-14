@@ -48,6 +48,7 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/basket/add', [BasketController::class, 'basketAdd'])->name('basketAdd');
     Route::post('/basket/destroy', [BasketController::class, 'basketDestroy'])->name('basketDestroy');
+    Route::get('/session-forget', [BasketController::class, 'forgetBasket']);
 
     Route::post('/order/make', [OrderController::class, 'makeOrder'])->name('makeOrder');
 
@@ -117,5 +118,13 @@ Route::prefix('admin')->name('admin.')->group(function () {
 
             Route::post('/destroy', [AdminController::class, 'ingredientsDestroy'])->name('destroy');
         });
+
+        Route::prefix('orders')->name('orders.')->group(function () {
+            Route::get('/index', [AdminController::class, 'ordersIndex'])->name('index');
+
+            Route::post('/change', [AdminController::class, 'orderChange'])->name('change');
+
+        });
     });
+
 });

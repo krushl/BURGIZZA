@@ -26,13 +26,14 @@
                         </div>
                         <div class="form-group">
                             <labeL for="category">
-                                Тип
+                                Тип мяса
                             </labeL>
                             <select class="form-select" id="category"  name="category">
-                                <option value="0" class="form-control-item" selected> Выберите тип мяса</option>
-                                <option value="1" class="form-control-item"> Из говядины</option>
-                                <option value="2" class="form-control-item">Из курицы</option>
-                                <option value="3" class="form-control-item">Из рыбы</option>
+                                @forelse($categories as $category)
+                                    <option value="{{$category->id}}"  class="form-control-item"> {{ $category->category }}</option>
+                                @empty
+                                    <option value="-1" class="form-control-item">error?</option>
+                                @endforelse
                             </select>
                         </div>
                         <br>

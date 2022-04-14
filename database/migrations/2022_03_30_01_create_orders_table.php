@@ -20,7 +20,7 @@ return new class extends Migration
             $table->text('address')->nullable();
             $table->text('phone')->nullable();
             $table->date('date');
-            $table->foreignId('status_id')->constrained('order_statuses')->cascadeOnUpdate()->cascadeOnDelete();
+            $table->foreignId('status_id')->nullable()->constrained('order_statuses')->cascadeOnUpdate()->cascadeOnDelete();
         });
     }
 

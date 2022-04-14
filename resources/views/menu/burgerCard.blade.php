@@ -5,7 +5,7 @@
             <h3 class="name">{{$burger->name}}</h3>
             <p class="price">{{$burger->price}} ₽</p>
             <p>
-                <button type="button" class="btn btn-warning buy" data-toggle="modal" data-burger="{{$burger}}" data-bs-target="trigger"  role="button">Добавить в корзину</button>
+                <button type="button" class="btn btn-warning buy" data-toggle="modal" data-burger="{{$burger->id}}" data-bs-target="trigger"  role="button">Добавить в корзину</button>
                 <button type="button" class="btn btn-outline-warning about" data-burger="{{$burger}}" data-toggle="modal" data-target="#exampleModalCenter" role="button">Подробнее</button>
             </p>
         </div>

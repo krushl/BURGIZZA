@@ -61,6 +61,55 @@
                         </div>
                     </div>
                 </div>
+                <div class="w-100"></div>
+                <div class="col-md-12">
+                    <div class="table-responsive-sm">
+                        <table class="table table-sm">
+                            <thead>
+                            <tr>
+                                <th>#Номер заказа</th>
+                                <th>Дата заказа</th>
+                                <th>Пользователь</th>
+                                <th scope="col">Название / Количество</th>
+                                <th scope="col">Итого</th>
+                                <th scope="col">Статус заказа</th>
+                                <th scope="col"></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                    @forelse($orders as $order)
+                        <tr>
+                            <td>
+                                {{$order->id}}
+                            </td>
+                            <td>
+                                {{(new DateTime($order->date))->format('d:m:Y')}}
+                            </td>
+                            <td>
+                                {{$order->name}}
+                            </td>
+                            <td>
+                                @foreach($order->burgers as $burger)
+                                    <p>{{$burger->burger->name.' : '.$burger->count}}</p>
+                                @endforeach
+                            </td>
+                            <td>
+                                {{$order->final_price}} ₽
+                            </td>
+                            <td>
+
+                                {{$order->status->status}}
+                            </td>
+
+                        </tr>
+                    @empty
+                        <tr>
+                            <td class="text-center" colspan="4">Нет данных</td>
+                        </tr>
+                    @endforelse
+                            </tbody>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

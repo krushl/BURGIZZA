@@ -12,6 +12,13 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
 }
 div.container-fluid {
     height:100vh;
@@ -93,4 +100,51 @@ header.sticky ul li a
 header ul li a:hover
 {
     color:var(--hover-color);
+}
+
+header .openMenu {
+    font-size:2rem;
+    display:none;
+    cursor:pointer;
+    color: var(--font-color);
+}
+
+header .mainMenu .closeMenu, .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+    color: var(--font-color);
+}
+
+@media(max-width: 800px) {
+    header .mainMenu{
+        height: 100vh;
+        position: fixed;
+        top:0;
+        right:0;
+        left:0;
+        z-index:10000;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        background: var(--main-color);
+        transition: top 1s ease;
+        display:none;
+    }
+
+    header .mainMenu .closeMenu{
+        display:block;
+        position: absolute;
+        top:20px;
+        right:20px;
+    }
+
+    header .openMenu {
+        display: block;
+    }
+
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
 }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Order;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -10,7 +11,9 @@ class ProfileController extends Controller
 {
     public function profile()
     {
-        return view('profile.index');
+        $orders = Order::with('burgers')->where(['user_id'=>Auth::id()])->whereNotNull('status_id')->get();
+
+        return view('profile.index',compact('orders'));
     }
 
     public function changeOptional(Request $request)

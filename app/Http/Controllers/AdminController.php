@@ -6,6 +6,7 @@ use App\Models\AddIngredients;
 use App\Models\Article;
 use App\Models\Burger;
 use App\Models\Category;
+use App\Models\Order;
 use App\Models\OrderStatus;
 use DateTime;
 use Illuminate\Http\Request;
@@ -107,9 +108,9 @@ class AdminController extends Controller
     public function burgerDestroy(Request $request)
     {
         $burger = Burger::find($request->burgerId);
-        $path = self::UPLOAD_PATH . '/' . $burger->image->picture;
+        $path = self::UPLOAD_PATH_BURGERS . '/' . $burger->image;
 
-        if (!Storage::delete($path)) {
+        if (Storage::delete($path)) {
             if (!$burger->delete()) {
                 return ['result' => false, 'message' => 'Произошла ошибка при удаление'];
             }
@@ -383,5 +384,18 @@ class AdminController extends Controller
         }
 
         return ["result"=>true, "message"=>'Успешно удаленно'];
+    }
+
+
+    public function ordersIndex()
+    {
+        $orders = Order::with('burgers')->whereNotNull('status_id')->get();
+        $statuses = OrderStatus::all();
+        return view('admin.orders.index',compact('orders','statuses'));
+    }
+    public function orderChange(Request $request)
+    {
+        Order::where(['id'=>$request->orderId])->update(['status_id'=>$request->statusId]);
+        return ['result'=>true, 'message'=>'Статус заказа обновлен'];
     }
 }

@@ -28,12 +28,17 @@ class Order extends Model
 
     public function status()
     {
-        return $this->hasOne(OrderStatus::class);
+        return $this->belongsTo(OrderStatus::class, 'status_id', 'id');
     }
 
     public function burgers()
     {
         return $this->hasMany(OrderBurger::class, 'order_id','id');
+    }
+
+    public function beatifulNames()
+    {
+        return $this->burgers()->where('orderId',$this->id)->get();
     }
 
 }

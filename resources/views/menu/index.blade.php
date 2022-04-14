@@ -99,8 +99,13 @@
                 speed:400
             });
         $('.buy').click(function () {
-            showModal(JSON.parse(this.dataset.burger));
-            $('#myModal').modal('show')
+          $.post({
+              url:"{{ route('basketAdd') }}",
+              data:{'_token': $('meta[name="csrf-token"]').attr('content'), 'burgerId': this.dataset.burger, 'count':1}
+          }).done(function (data) {
+            alert("Товар добавлен в корзину");
+            location.reload();
+         });
         });
 
         $('.about').click(function () {
@@ -117,13 +122,15 @@
             $('#exampleModalLongTitle').text(burger.name);
 
             str = '';
+
             // requests = '';
-            for ( const [key,val] of Object.entries(JSON.parse(burger.composition)))
-            {
-                str += `<li>${val}</li>`
-                // requests += `<label for="composition[${key}]"> Без ${val} </label>
-                //             <input type="checkbox" name="composition[${key}]" value=${burger.composition} id="composition[${key}]"/>`
-            }
+
+                for (const [key, val] of Object.entries(JSON.parse(burger.composition))) {
+                    str += `<li>${val}</li>`
+                    // requests += `<label for="composition[${key}]"> Без ${val} </label>
+                    //             <input type="checkbox" name="composition[${key}]" value=${burger.composition} id="composition[${key}]"/>`
+                }
+
 
             $('.modal-composition').html(str);
             $('.modal-price').html('Цена: ' + burger.price + '₽');

@@ -25,7 +25,7 @@ class OrderController extends Controller
             $order->phone = $request->user['phone'];
             $order->address = $request->user['address'];
             $order->final_price = $request->finalPrice;
-            $order->status_id = 3;
+            $order->status_id = 1;
             if(!$order->save()){
                 return ['resutl' => false, 'message'=>'Произошла ошибка при оформлении заказа'];
             }

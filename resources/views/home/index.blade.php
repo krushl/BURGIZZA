@@ -7,7 +7,7 @@
 
 @endpush
 @section('content')
-    <div class="container-fluid h-100vh w-100 ">
+    <div class="container-fluid ">
         <div class="d-flex flex-column justify-content-center align-items-center home-container">
             <h2 class="home-title  text-center"> СЪЕШЬ МЕНЯ</h2>
             <a class="home-button" href="{{ route('menu') }}">
