@@ -27,9 +27,10 @@ class BasketController extends Controller
                 ],
             );
             session(['orderId' => $order->id]);
-        }
+            return redirect()->route('basket');
+        }else {
             $order = Order::find($orderId);
-
+        }
 
 
        if($order->burgers->contains('burger_id',$request->burgerId))
@@ -66,8 +67,12 @@ class BasketController extends Controller
         }
         $order = Order::find($orderId);
 
-            $order->burgers()->where('burger_id',$request->burgerId)->delete();
+        if(!$order->burgers()->where('burger_id',$request->burgerId)->delete())
+        {
+            return ['result'=>false,'message'=>'При удалении произошла ошибка'];
+        }
         return ['result'=>true,'message'=>'Успешно удалено'];
+
     }
 
     public function basket(Request $request)

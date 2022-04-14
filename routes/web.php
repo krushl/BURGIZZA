@@ -4,6 +4,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BasketController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Auth;
@@ -47,6 +48,10 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/basket/add', [BasketController::class, 'basketAdd'])->name('basketAdd');
     Route::post('/basket/destroy', [BasketController::class, 'basketDestroy'])->name('basketDestroy');
+
+    Route::post('/order/make', [OrderController::class, 'makeOrder'])->name('makeOrder');
+
+
 });
 
 Route::prefix('admin')->name('admin.')->group(function () {
